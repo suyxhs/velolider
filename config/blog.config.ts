@@ -2,13 +2,13 @@ import type { Post } from 'contentlayer/generated';
 
 export const CategoryColors: Record<
   NonNullable<Post['category']>,
-  'mint' | 'violet' | 'sun' | 'gray' | 'green-btn'
+  'mint' | 'violet' | 'sun' | 'gray' | 'greenYellow'
 > = {
   Лидеры: 'mint',
   Протоколы: 'violet',
   Персонал: 'sun',
   Прочее: 'gray',
-  Спонсоры: 'green-btn'
+  Спонсоры: 'greenYellow'
 } as const;
 
 export const favorites: Post['slug'][] = [
