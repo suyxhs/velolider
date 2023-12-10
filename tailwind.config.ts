@@ -69,19 +69,7 @@ module.exports = {
           '100%': { transform: 'translateX(-100%)' },
         },
       },
-      typography: ({ theme }) => ({
-        violet: {
-          css: {
-            '--tw-prose-counters': theme('colors.violet'),
-            '--tw-prose-bullets': theme('colors.violet'),
-            '--tw-prose-quote-borders': theme('colors.violet'),
-            '--tw-prose-invert-links': theme('colors.violet'),
-            '--tw-prose-invert-counters': theme('colors.violet'),
-            '--tw-prose-invert-bullets': theme('colors.violet'),
-            '--tw-prose-invert-quote-borders': theme('colors.violet'),
-          },
-        },
-      }),
+      
     },
   },
   plugins: [require('@tailwindcss/typography')],

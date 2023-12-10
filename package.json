@@ -8,10 +8,12 @@
     "url": "https://velolider"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "contentlayer dev & next dev",
     "build": "next build",
+    "postbuild": "next-sitemap && node scripts/rss.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"**/(*.js|*.ts|*.yml|*.tsx|*.md|*.json)\""
   },
   "dependencies": {
     "@floating-ui/react": "^0.24.8",
