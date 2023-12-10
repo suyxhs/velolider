@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { socials } from '@/config/navigation.config';
 
 const email = socials.find(social => social.name.includes('email'))?.href;
-if (!email) throw new Error('Email not found');
+// if (!email) throw new Error('Email not found');
 
 const Imprint = () => {
   return (
