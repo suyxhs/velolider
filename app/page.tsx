@@ -16,8 +16,8 @@ const Home = () => {
       <SectionHero />
       <SectionCards />
       {/* <HeroSection /> */}
-      {/* <CompaniesSection /> */}
       <ChallengesSection />
+      <CompaniesSection />
       <AboutSection />
       <ServicesSection />
       <CTASection id="cta-services" variant="mint" />

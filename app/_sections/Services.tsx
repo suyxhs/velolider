@@ -17,13 +17,13 @@ export const ServicesSection = () => {
             Мы в социальный сетях
           </h2>
         </div>
-        <div className="my-12 flex items-center justify-center">
+        <div className="mt-12 flex items-center justify-center">
           <Label color="gray" size="lg">
             Спорт - норма жизни
           </Label>
         </div>
         <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-12">
-              <div className="flex">
+              <div >
                 <div className="relative m-10 max-w-sm rounded-2xl border-2 border-violet/75 bg-black-50 px-8 py-10 ring-2 ring-violet/25 ring-offset-2 dark:bg-black dark:ring-offset-black">
                   <h3 className="font-accent text-3xl font-medium">
                     <span className="text-violet">QR код</span>

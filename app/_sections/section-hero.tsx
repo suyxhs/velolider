@@ -11,10 +11,10 @@ import IconMockups from '/public/mockup.svg'
 
 export function SectionHero() {
     return (
-        <section className="relative w-full h-section-hero bg-green-primary border-t border-t-green-border pt-16 overflow-hidden bg-hero bg-no-repeat bg-top">
+        <section className="relative rounded-t-3xl w-full h-section-hero pt-16 overflow-hidden bg-hero bg-top">
             <GridContainer className="flex flex-col items-center">
                 <div className="w-full max-w-text-hero text-center">
-                    <h3 className="text-xl font-medium text-green-actived mb-4">Официальный сайт лидирующей команды по велоспорту</h3>
+                    <h3 className="text-xl font-medium text-white mb-4">Официальный сайт ведущей команды по велоспорту</h3>
                     <h1 className="text-white text-7xl/normal font-semibold mb-2">ВелоЛидер</h1>
                     <div className="flex items-center justify-center gap-10">
                         <button className="flex items-center gap-2">
@@ -45,12 +45,12 @@ export function SectionHero() {
                     <Image
                         src={IconMockups}
                         alt="Icon Mockups"
-                        className="relative -rotate-12 top-[1.1rem] left-[3.0rem]"
+                        className="relative -rotate-12 top-[1.1rem] left-[.3rem] hidden md:block"
                     />
                     <Image
                         src={IconMockups}
                         alt="Icon Mockups"
-                        className="relative rotate-12 top-[1.1rem] left-[1.0rem]"
+                        className="relative rotate-12 top-[1.1rem] left-[.3rem] hidden md:block"
                     />
                 </div>
             </GridContainer>

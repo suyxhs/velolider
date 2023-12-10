@@ -13,9 +13,9 @@ export const ChallengesSection = () => {
     <div className="relative mb-16 md:mb-32">
       <div className="px-container mx-auto max-w-container">
         <h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
-          Коротко о нас
+          Кратко о нас
         </h2>
-        <div className="grid grid-cols-1 justify-items-center gap-x-10 gap-y-10 sm:grid-cols-2 sm:gap-x-16 sm:gap-y-16 lg:grid-cols-3">
+        <div className="grid grid-cols-1 justify-items-start gap-x-10 gap-y-10 sm:grid-cols-2 sm:gap-x-16 sm:gap-y-16 lg:grid-cols-3">
           {challenges.map(challenge => {
             return (
               <IconCard
@@ -51,7 +51,7 @@ const challenges = [
   {
     Icon: PuzzlePiece,
     title:
-      'Спортивная школа №8 олимпийского резерва',
+      'МБУДО СШОР №8',
   },
   {
     Icon: Money,

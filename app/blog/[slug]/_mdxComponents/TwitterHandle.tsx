@@ -4,7 +4,7 @@ import { socials } from '@/config/navigation.config';
 import { Twitter } from 'lucide-react';
 
 const twitterUrl = socials.find(social => social.name === 'Twitter')?.href;
-if (!twitterUrl) throw new Error('Twitter URL not found');
+// if (!twitterUrl) throw new Error('Twitter URL not found');
 
 export const MdxTwitterHandle: FC = () => {
   const handle = twitterUrl.split('/@').pop();

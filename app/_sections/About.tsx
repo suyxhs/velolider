@@ -30,7 +30,7 @@ export const AboutSection = () => {
             className="h-full w-full rounded-md object-cover"
           />
           <span className="mt-2 hidden text-center text-xs opacity-50 md:block">
-            Выезд команды ВелоЛидер в Пугачёв
+            Выезд команды ВелоЛидер в город Выкса
           </span>
         </div>
       </div>

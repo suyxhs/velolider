@@ -57,7 +57,8 @@ module.exports = {
         'area-cards': '35.1rem'
       },
       backgroundImage: {
-        'hero': "url('/bg-hero.svg')"
+        'hero': "url('/bg-hero2.jpg')",
+        'hero-pattern': "url('/bg-hero2.jpg')"
       },
       animation: {
         'scrolling-container': 'scrolling-container 30000ms linear infinite',
