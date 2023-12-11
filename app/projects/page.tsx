@@ -30,7 +30,7 @@ const Projects = () => {
         description="В БЛИЖАЙШЕЕ ВРЕМЯ ЗДЕСЬ ПОЯВЯТСЯ НОВОСТИ"
         // actions={<HeroActions />}
       />
-      {/* <div className="mx-auto mb-24 mt-12 flex max-w-5xl flex-col gap-12">
+      <div className="mx-auto mb-24 mt-12 flex max-w-5xl flex-col gap-12">
         {projects.map(project => {
           return project.items.length > 0 ? (
             <div key={project.name}>
@@ -54,7 +54,7 @@ const Projects = () => {
             <Fragment key={project.name} />
           );
         })}
-      </div> */}
+      </div>
       <CTA variant="sun" />
     </main>
   );

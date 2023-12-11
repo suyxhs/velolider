@@ -36,11 +36,11 @@ const Post = ({ params }: { params: { slug: string } }) => {
               aria-label="View all posts"
               className="a-reset hover:bg-white-200 absolute -left-16 top-[46px] hidden p-1 opacity-50 hover:bg-black-100 dark:hover:bg-black-900 md:block"
             >
-              <span className="sr-only">View all posts</span>
+              <span className="sr-only">Назад</span>
               <ArrowLeft size={24} />
             </Link>
           </Tooltip.Trigger>
-          <Tooltip.Content>View all posts</Tooltip.Content>
+          <Tooltip.Content>Назад</Tooltip.Content>
         </Tooltip.Root>
         <div className="md:mb-16">
           {post.category && (
@@ -69,7 +69,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
               </span>
             </div>
             <time dateTime={post.publishedAt} className="text-sm opacity-75">
-              {formatDate(post.publishedAt, 'LLLL d, yyyy')}
+              {formatDate(post.publishedAt, 'd.LL.yyyy')}
             </time>
           </div>
           {post.cover && (

@@ -39,7 +39,7 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
       >
         <div className="p-4">
           <time className="text-sm opacity-75">
-            {formatDate(post.publishedAt, 'dd LLLL yyyy')}
+            {formatDate(post.publishedAt, 'dd.LL.yyyy')}
           </time>
           <h3 className="my-1 text-lg font-medium">{post.title}</h3>
           {variant !== 'minimal' && (

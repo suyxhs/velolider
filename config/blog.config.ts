@@ -12,7 +12,7 @@ export const CategoryColors: Record<
 } as const;
 
 export const favorites: Post['slug'][] = [
-  'how-to-build-a-text-editor-like-notion',
+  'generating-dynamic-og-images-with-vercel-og',
   'adopting-a-no-code-mindset',
   'why-open-source-projects-are-your-best-marketing',
 ];

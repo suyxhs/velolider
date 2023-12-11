@@ -15,7 +15,7 @@ export function SectionHero() {
             <GridContainer className="flex flex-col items-center">
                 <div className="w-full max-w-text-hero text-center">
                     <h3 className="text-xl font-medium text-white mb-4">Официальный сайт ведущей команды по велоспорту</h3>
-                    <h1 className="text-white text-7xl/normal font-semibold mb-2">ВелоЛидер</h1>
+                    <h1 className="text-white text-5xl/normal font-semibold mb-2">ВелоЛидер</h1>
                     <div className="flex items-center justify-center gap-10">
                         <button className="flex items-center gap-2">
                             <Image
