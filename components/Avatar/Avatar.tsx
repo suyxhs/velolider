@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import clsx from 'clsx';
 
-import AvatarImg from './konstantin-muenster-avatar.jpg';
+import AvatarImg from './zaglushka.webp';
 
 type AvatarProps = {
   size?: number;

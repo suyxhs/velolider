@@ -46,21 +46,21 @@ export const TaskCard: FC<TaskCardProps> = ({ title, className }) => {
 const deriveProjectFromTitle = (
   title: string
 ): { name: string; color: 'sun' | 'mint' | 'gray' | 'violet' }[] => {
-  if (title.toLowerCase().includes('text editor'))
-    return [{ name: 'Text Editor', color: 'sun' }];
+  if (title.toLowerCase().includes('повышаем свой уровень'))
+    return [{ name: 'Тренер', color: 'sun' }];
 
   if (
-    title.toLowerCase().includes('user') ||
-    title.toLowerCase().includes('designed') ||
-    title.toLowerCase().includes('consult')
+    title.toLowerCase().includes('горжусь') ||
+    title.toLowerCase().includes('состою в команде') ||
+    title.toLowerCase().includes('ВелоЛидер')
   )
-    return [{ name: 'Product', color: 'violet' }];
+    return [{ name: 'Спортсмен', color: 'violet' }];
 
-  if (title.toLowerCase().includes('initial product'))
+  if (title.toLowerCase().includes('регион'))
     return [
-      { name: 'Frontend', color: 'mint' },
-      { name: 'Backend', color: 'sun' },
+      { name: 'Пользователь', color: 'mint' },
+      // { name: 'Родственник ', color: 'sun' },
     ];
 
-  return [{ name: 'Frontend', color: 'mint' }];
+  return [{ name: 'Пользователь', color: 'mint' }];
 };

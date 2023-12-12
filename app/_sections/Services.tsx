@@ -14,7 +14,7 @@ export const ServicesSection = () => {
       <div className="px-container mx-auto max-w-container">
         <div className="mx-auto max-w-4xl text-center md:mb-12">
           <h2 className="font-accent text-4xl font-medium md:text-5xl">
-            Мы в социальный сетях
+            Мы в социальных сетях
           </h2>
         </div>
         <div className="mt-12 flex items-center justify-center">
@@ -23,7 +23,7 @@ export const ServicesSection = () => {
           </Label>
         </div>
         <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-12">
-              <div >
+              <div className='flex flex-col md:flex-row'>
                 <div className="relative m-10 max-w-sm rounded-2xl border-2 border-violet/75 bg-black-50 px-8 py-10 ring-2 ring-violet/25 ring-offset-2 dark:bg-black dark:ring-offset-black">
                   <h3 className="font-accent text-3xl font-medium">
                     <span className="text-violet">QR код</span>

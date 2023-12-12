@@ -11,7 +11,7 @@ import { Fragment } from 'react';
 
 const projects = [
   {
-    name: 'Freelance',
+    name: 'Мы в новостях',
     items: allProjects.filter(project => project.role !== 'Open Source'),
   },
   {
@@ -24,10 +24,10 @@ const Projects = () => {
   return (
     <main className="px-container mx-auto max-w-container pb-24">
       <Hero
-        className="py-16 md:py-32"
+        className="pt-16 md:pt-32"
         minHeight={false}
         title={<HeroTitle />}
-        description="В БЛИЖАЙШЕЕ ВРЕМЯ ЗДЕСЬ ПОЯВЯТСЯ НОВОСТИ"
+        // description=""
         // actions={<HeroActions />}
       />
       <div className="mx-auto mb-24 mt-12 flex max-w-5xl flex-col gap-12">

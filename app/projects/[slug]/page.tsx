@@ -71,7 +71,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
                 )}
                 {project.externals?.Website && (
                   <span className="block px-2 text-sm opacity-50">
-                    Visit{' '}
+                    Группа ВК{' '}
                     <a
                       href={project.externals.Website}
                       className="a-reset underline"
@@ -121,7 +121,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
         <div className="mx-auto mb-16 mt-4 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-[2fr_1fr] lg:gap-28">
           {project.background?.html && (
             <div>
-              <Tagline>Background</Tagline>
+              <Tagline>Описание</Tagline>
               <div
                 dangerouslySetInnerHTML={{ __html: project.background.html }}
                 className="text-lg md:text-xl"
@@ -130,7 +130,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
           )}
           {project.stack?.length && (
             <div>
-              <Tagline>Tech Stack</Tagline>
+              <Tagline>Тэги</Tagline>
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 {project.stack.map(technology => (
                   <Label
@@ -147,7 +147,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
         </div>
         {project.responsibilities?.length && (
           <div className="mx-auto grid w-full max-w-5xl">
-            <Tagline>How I Helped</Tagline>
+            <Tagline>КОММЕНТАРИИ ПОСЛЕ ФИЛЬМА</Tagline>
             <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               {project.responsibilities.map(markdown => (
                 <TaskCard key={markdown.html} title={markdown} />
@@ -196,7 +196,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
           {project.body.raw && (
             <div>
               <h2 className="mb-5 mt-4 font-accent text-4xl font-medium">
-                Highlight of the Project
+                В тени чемпионов
               </h2>
               <HighlightContent code={project.body.code} />
             </div>
@@ -226,7 +226,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
         </div>
         {project.achievements?.length && (
           <aside className="order-1 lg:order-2 lg:pt-16">
-            <Tagline>Outcomes</Tagline>
+            <Tagline>Перспективы</Tagline>
             <div className="mt-8 flex flex-row flex-wrap gap-8 lg:mt-10 lg:flex-col lg:gap-10">
               {project.achievements.map((v, i) => {
                 return (

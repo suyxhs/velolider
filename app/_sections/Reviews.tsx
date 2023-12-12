@@ -2,7 +2,7 @@ import { ReviewCard } from '@/components/Card';
 
 export const ReviewsSection = () => {
   return (
-    <div className="relative mb-16 bg-violet/40 dark:bg-violet/90 md:mb-32">
+    <div className="relative mb-16 bg-violet/40 dark:bg-violet/90 md:mb-32 rounded-[20px]">
       <div className="px-container mx-auto max-w-container pb-16 pt-12 md:py-24">
         <h3 className="mb-5 mt-4 text-center font-accent text-4xl font-medium dark:text-black md:text-5xl">
           Слова наших спортсменов
