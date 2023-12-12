@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Mockup from "/public/mockup-main.png"
+import Mockup from "/public/iphone2.png"
 
 import Card01 from "/public/images/user/03.jpg"
 import Card02 from "/public/images/user/07.jpg"
@@ -16,7 +16,8 @@ export function SectionCards() {
             <Image 
             src={Mockup}
             alt="Mockup"
-            className="sticky z-10 top-56 mx-auto -mt-[32rem] mb-16"
+            width={500}
+            className="sticky z-10 top-56 mx-auto -mt-[42rem] mb-2"
             />
 
             <h2 className="text-center text-4xl font-semibold mb-56">Добро пожаловать в <span className="text-green-title-card">команду</span></h2>
