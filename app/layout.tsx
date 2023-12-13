@@ -22,9 +22,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <head>
         <PlausibleAnalytics domain="velolider" />
         {/* <meta name="og:image" /> is generated. */}
-        <meta property="og:image:alt" content="VeliLider" />
+        {/* <meta property="og:image:alt" content="Konstantin Münster" /> */}
         {/* <meta name="twitter:image" /> is generated. */}
-        <meta property="og:image:alt" content="VeloLider" />
+        {/* <meta property="og:image:alt" content="Konstantin Münster" /> */}
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@velolider',
     creator: '@velolider',
-    title: 'ВелооЛидер – Велоспорт',
+    title: 'ВелоЛидер – Велоспорт',
     description:
       'Официальный сайт лидирующей команды Воронежской области',
   },
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
     description:
       'Официальный сайт лидирующей команды Воронежской области',
     countryName: 'Воронеж',
-    locale: 'ru_RU',
+    locale: 'en_US',
   },
   appleWebApp: {
     capable: true,
