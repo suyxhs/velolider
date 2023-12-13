@@ -59,15 +59,13 @@ export const metadata: Metadata = {
     default: 'ВелоЛидер',
   },
   description:
-    'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
+    'Официальный сайт лидирующей команды Воронежской области',
   keywords: [
-    'Web Development',
-    'Freelancer',
-    'Product Engineer',
-    'Product Development',
-    'Product Management',
-    'MVP',
-    'Startups',
+    'Лидер',
+    'Велоспорт',
+    'ВелоЛидер',
+    'Спорт',
+    'Победа будет за нами',
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {
@@ -83,7 +81,7 @@ export const metadata: Metadata = {
     creator: '@velolider',
     title: 'ВелооЛидер – Велоспорт',
     description:
-      'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
+      'Официальный сайт лидирующей команды Воронежской области',
   },
   openGraph: {
     type: 'profile',
@@ -96,7 +94,7 @@ export const metadata: Metadata = {
     siteName: 'ВелоЛидер',
     title: 'Команда ВелоЛидер',
     description:
-      'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
+      'Официальный сайт лидирующей команды Воронежской области',
     countryName: 'Воронеж',
     locale: 'ru_RU',
   },
