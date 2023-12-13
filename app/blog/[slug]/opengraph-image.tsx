@@ -4,7 +4,7 @@ import { ImageResponse } from 'next/server';
 
 export const runtime = 'edge';
 
-export const alt = 'Konstantin Münster';
+export const alt = 'ВелоЛидер';
 export const size = {
   width: 1200,
   height: 630,
@@ -14,7 +14,7 @@ export const contentType = 'image/png';
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://konstantin.digital'
+    ? 'https://velolider'
     : 'http://localhost:3000';
 
 const Background = ({ children }: any) => {
@@ -68,7 +68,7 @@ const Background = ({ children }: any) => {
           <div
             style={{ display: 'flex', fontFamily: 'Inter', fontSize: '24px' }}
           >
-            konstantin.digital
+            velolider
           </div>
         </div>
       </div>

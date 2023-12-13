@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   description:
     'I share my learnings on how to build interactive features with a product-first mindset.',
   alternates: {
-    canonical: `https://konstantin.digital/blog`,
+    canonical: `https://velolider/blog`,
   },
 };
 

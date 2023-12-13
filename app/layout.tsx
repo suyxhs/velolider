@@ -20,15 +20,15 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       suppressHydrationWarning
     >
       <head>
-        <PlausibleAnalytics domain="konstantin.digital" />
+        <PlausibleAnalytics domain="velolider" />
         {/* <meta name="og:image" /> is generated. */}
-        <meta property="og:image:alt" content="Konstantin Münster" />
+        <meta property="og:image:alt" content="VeliLider" />
         {/* <meta name="twitter:image" /> is generated. */}
-        <meta property="og:image:alt" content="Konstantin Münster" />
+        <meta property="og:image:alt" content="VeloLider" />
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="konstantin.digital – Blog"
+          title="VeloLider – Blog"
           href="/rss.xml"
         />
       </head>
@@ -50,7 +50,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
  */
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://konstantin.digital'),
+  metadataBase: new URL('https://velolider'),
   authors: { name: 'ВелоЛидер' },
   creator: 'ВелоЛидер',
   publisher: 'ВелоЛидер',
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {
-    canonical: 'https://konstantin.digital',
+    canonical: 'https://velolider',
     types: {
       'application/rss+xml': '/rss.xml',
     },
@@ -79,17 +79,17 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   twitter: {
     card: 'summary_large_image',
-    site: '@kmuenster',
-    creator: '@kmuenster',
-    title: 'Konstantin Münster – Product Engineer',
+    site: '@velolider',
+    creator: '@velolider',
+    title: 'ВелооЛидер – Велоспорт',
     description:
       'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
   },
   openGraph: {
     type: 'profile',
-    firstName: 'Konstantin',
-    lastName: 'Münster',
-    username: 'kmuenster',
+    firstName: 'Alexander',
+    lastName: 'Zyablitsky',
+    username: 'suyxhs',
     gender: 'he/him',
     emails: ['velolider@gmail.com'],
     url: 'https://velolider',
@@ -97,13 +97,13 @@ export const metadata: Metadata = {
     title: 'Команда ВелоЛидер',
     description:
       'Turn your product’s pain into production-ready features that unlock opportunities. For startups and scale-ups.',
-    countryName: 'Germany',
-    locale: 'en_US',
+    countryName: 'Воронеж',
+    locale: 'ru_RU',
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Konstantin Münster',
+    title: 'ВелоЛидер',
   },
   formatDetection: {
     email: false,

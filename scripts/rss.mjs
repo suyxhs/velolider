@@ -4,7 +4,7 @@ import { Feed } from 'feed';
 
 import allPosts from '../.contentlayer/generated/Post/_index.json' assert { type: 'json' };
 
-const baseUrl = 'https://konstantin.digital';
+const baseUrl = 'https://velolider';
 const author = {
   name: 'ВелоЛидер',
   email: 'velolider@gmail.com',
@@ -22,7 +22,7 @@ const feed = new Feed({
   image: `${baseUrl}/favicon.ico`,
   favicon: `${baseUrl}/favicon.ico`,
   updated: date,
-  copyright: `All rights reserved ${date.getFullYear()}, Konstantin Münster`,
+  copyright: `ВелоЛидер ${date.getFullYear()}`,
   author,
   feedLinks: {
     rss2: `${baseUrl}/rss.xml`,
@@ -32,7 +32,7 @@ const feed = new Feed({
 allPosts
   .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
   .forEach(post => {
-    const url = `https://konstantin.digital/blog/${post.slug}`;
+    const url = `https://velolider/blog/${post.slug}`;
     feed.addItem({
       id: url,
       link: url,

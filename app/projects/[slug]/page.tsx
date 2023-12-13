@@ -277,7 +277,7 @@ export const generateMetadata = (props: GenerateMetadataParams): Metadata => {
       site: '@kmuenster',
     },
     alternates: {
-      canonical: `https://konstantin.digital/projects/${project.slug}`,
+      canonical: `https://velolider/projects/${project.slug}`,
     },
   };
 };

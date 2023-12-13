@@ -95,7 +95,7 @@ export const metadata: Metadata = {
   title: 'Новости',
   description: 'A collection of freelance and open-source projects.',
   alternates: {
-    canonical: `https://konstantin.digital/projects`,
+    canonical: `https://velolider/projects`,
   },
 };
 
