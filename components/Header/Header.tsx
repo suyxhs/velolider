@@ -18,7 +18,7 @@ import { ThemeToggle } from '@/components/ThemeToggle';
 export const Header = () => {
   return (
     <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
-      <Link href="/" className="a-reset focus-default rounded-md">
+      <Link href="/" className="a-reset focus-default rounded-md flex items-center">
         {/* <Logo textHidden /> */}
         <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
       </Link>

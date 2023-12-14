@@ -26,7 +26,7 @@ export const BlogPostTimeline: FC = () => {
   return (
     <div id="timeline" className="scroll-m-8">
       <h2 className="block font-accent text-2xl font-medium md:mb-10 md:hidden">
-        All Posts
+        Все посты
       </h2>
       <div className="mb-4 flex gap-2 overflow-x-auto py-4 pl-1">
         <Button
@@ -57,7 +57,7 @@ export const BlogPostTimeline: FC = () => {
           );
         })}
       </div>
-      <div className="flex flex-col flex-wrap gap-4 sm:flex-row lg:flex-col">
+      <div className="flex flex-col flex-wrap gap-4 sm:flex-row lg:flex-col items-center">
         {posts.map(post => {
           return (
             <BlogPostCard
