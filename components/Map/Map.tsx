@@ -12,14 +12,14 @@ export default function MapState() {
 
   return (
     <YMaps>
-      <div className='grayscale '>
+      <div className='grayscale'>
       <Map defaultState={defaultState} modules={["control.FullscreenControl"]}>
         <Placemark 
         modules={["geoObject.addon.balloon"]}
         geometry={[51.649661, 39.155533]}
         properties={{
             balloonContentBody:
-              "МБУДО СШОР №8",
+              "МБУДО СШОР №8 - улица Домостроителей, 63А",
           }} />
       </Map>
       </div>

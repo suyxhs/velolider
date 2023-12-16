@@ -9,15 +9,15 @@ const year = new Date().getFullYear();
 
 export const Footer = () => {
   return (
-      <footer className="border-t-2 border-transparent bg-black dark:border-white/50">
-        <div className="px-container mx-auto flex max-w-container flex-col-reverse items-start justify-between gap-x-12 gap-y-20 pb-32 pt-16 md:flex-row">
+      <footer className="border-t-2 border-transparent bg-black dark:border-white/50 rounded-t-[20px]">
+        <div className="px-container mx-auto flex max-w-container flex-col-reverse items-start justify-between gap-x-12 gap-y-20 pb-20 pt-16 md:flex-row">
           <div className="flex flex-col">
             {/* <Logo iconColor="white" textHidden /> */}
             <h2 className='font-semibold text-white text-lg'>ВелоЛидер</h2>
             <span className="mt-3 block text-sm text-white">
               &copy; {year} ВелоЛидер
             </span>
-            <div className="my-12 rounded-lg border-4 border-violet text-base">
+            <div className="mt-12 rounded-lg border-4 border-violet text-base">
               <div className="not-prose bg-violet px-2 py-1 text-sm font-medium uppercase text-black/75">
                 Мы на карте
               </div>
