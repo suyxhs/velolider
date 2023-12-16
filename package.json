@@ -19,6 +19,7 @@
     "@floating-ui/react": "^0.24.8",
     "@googlemaps/js-api-loader": "^1.16.2",
     "@headlessui/react": "^1.7.15",
+    "@pbe/react-yandex-maps": "^1.2.5",
     "bright": "^0.8.2",
     "clsx": "^1.2.1",
     "contentlayer": "^0.3.4",
