@@ -41,7 +41,7 @@ export const CTA: FC<CTAProps> = ({
   buttonText = 'Консультация',
   buttonLink = FreshEyesAuditSchedulingLink,
   buttonAdornment = <DefaultButtonAdornment />,
-  benefits = ['Консультация +-30 мин', 'Обратная связь с нами'],
+  benefits = ['+-30 мин', 'Обратная связь'],
   secondaryButtonText,
   secondaryButtonLink,
   variant,
@@ -52,7 +52,7 @@ export const CTA: FC<CTAProps> = ({
         <h2 className="font-accent text-4xl font-medium md:text-5xl">
           {title}
         </h2>
-        <p className="mx-auto mb-7 mt-5 max-w-3xl text-center text-xl">
+        <p className="mx-auto mb-7 mt-5 max-w-3xl text-center text-md">
           {description}
         </p>
         <div className="flex items-center justify-center gap-4">
