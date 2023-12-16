@@ -12,17 +12,17 @@ const uxum = localFont({
   variable: '--font-uxum',
   src: [
     {
-      path: './UxumGrotesque-Regular.woff2',
+      path: './Geist-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './UxumGrotesque-Medium.woff2',
+      path: './Geist-Medium.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: './UxumGrotesque-Bold.woff2',
+      path: './Geist-Bold.woff2',
       weight: '700',
       style: 'normal',
     },
