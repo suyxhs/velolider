@@ -4,6 +4,7 @@ export const CategoryColors: Record<
   NonNullable<Post['category']>,
   'mint' | 'violet' | 'sun' | 'gray' 
 > = {
+  Элита: 'mint',
   Лидеры: 'mint',
   Протоколы: 'violet',
   Персонал: 'sun',
