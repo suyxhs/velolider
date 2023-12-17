@@ -69,7 +69,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
               </span>
             </div>
             <time dateTime={post.publishedAt} className="text-sm opacity-75">
-              {formatDate(post.publishedAt, 'd.LL.yyyy')}
+              {formatDate(post.publishedAt, 'dd.LL.yyyy')}
             </time>
           </div>
           {post.cover && (

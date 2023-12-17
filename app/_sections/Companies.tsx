@@ -130,12 +130,12 @@ const companies = [
     url: 'https://www.aboutyou.de/',
     width: 100,
     height: 100,
+  },
+  {
+    name: 'VETER',
+    logo: '/images/posts/sponsors/velolider.webp',
+    url: 'https://www.aboutyou.de/',
+    width: 190,
+    height: 100,
   }
-  // {
-  //   name: 'VETER',
-  //   logo: '/images/posts/sponsors/velolider.png',
-  //   url: 'https://www.aboutyou.de/',
-  //   width: 190,
-  //   height: 100,
-  // }
 ];
