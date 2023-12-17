@@ -13,7 +13,7 @@ export const CategoryColors: Record<
 } as const;
 
 export const favorites: Post['slug'][] = [
-  'generating-dynamic-og-images-with-vercel-og',
-  'adopting-a-no-code-mindset',
-  'why-open-source-projects-are-your-best-marketing',
+  'class-schedule',
+  'popov-anton-post',
+  'frolova-natalia',
 ];
