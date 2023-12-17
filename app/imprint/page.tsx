@@ -8,50 +8,32 @@ const email = socials.find(social => social.name.includes('email'))?.href;
 const Imprint = () => {
   return (
     <main className="px-container prose-custom mx-auto !max-w-container pb-24 pt-12">
-      <h1>Imprint</h1>
-      <p>Information pursuant to § 5 TMG:</p>
+      <h1>Разработчик</h1>
+      <p>Основная информация:</p>
       <p>
-        Konstantin Münster
+        Название: suyxhs
         <br />
-        Rissener Landstr. 225A
-        <br />
-        22559 Hamburg
-        <br />
-        Germany
+        Разработка сайтов и приложений
       </p>
       <p>
         <a href={email}>{email?.replace('mailto:', '')}</a>
       </p>
       <hr />
       <p>
-        <strong>Liability for Contents</strong>
+        <strong>Обратная связь</strong>
       </p>
       <p>
-        As service providers, we are liable for own contents of these websites
-        according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However,
-        according to Sec. 8 to 10 German Telemedia Act (TMG), service providers
-        are not obligated to permanently monitor submitted or stored information
-        or to search for evidences that indicate illegal activities. Legal
-        obligations to removing information or to blocking the use of
-        information remain unchallenged. In this case, liability is only
-        possible at the time of knowledge about a specific violation of law.
-        Illegal contents will be removed immediately at the time we get
-        knowledge of them.
-      </p>
-      <p>
-        <strong>Liability for Links</strong>
-      </p>
-      <p>
-        Our offer includes links to external third party websites. We have no
-        influence on the contents of those websites, therefore we cannot
-        guarantee for those contents. Providers or administrators of linked
-        websites are always responsible for their own contents. The linked
-        websites had been checked for possible violations of law at the time of
-        the establishment of the link. Illegal contents were not detected at the
-        time of the linking. A permanent monitoring of the contents of linked
-        websites cannot be imposed without reasonable indications that there has
-        been a violation of law. Illegal links will be removed immediately at
-        the time we get knowledge of them.
+        Привет, гость, это страница о информации про разработчика данного сайта.
+
+        Моё портфолио: <a href="https://suyxhs-portfolio.vercel.app">suyxhs</a> - буду рад с вами пообщаться и выполнить для вас работу
+
+        Примеры работ можете посмотреть в моём портфолио ( на сайте не все работы выложены, но на github есть больше примеров ) Ссылка на <a href="https://github.com/suyxhs">github</a>
+        <br />
+        Также ссылки на социальные сети для прямого обращения:
+        <br />
+        <a href="https://vk.com/chaffinch_8">VK</a>
+        <br />
+        <a href="https://t.me/xsiiijy_sgfff">Telegram</a>
       </p>
     </main>
   );
@@ -60,7 +42,7 @@ const Imprint = () => {
 /** EXPORTS */
 
 export const metadata: Metadata = {
-  title: 'Imprint',
+  title: 'Разработка',
   description: undefined,
   robots: {
     follow: false,

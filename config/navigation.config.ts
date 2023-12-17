@@ -6,8 +6,8 @@ export const navigation = [
 ];
 
 export const legals = [
-  { name: 'Transparency', href: '/transparency' },
-  { name: 'Imprint', href: '/imprint' },
+  // { name: 'Transparency', href: '/transparency' },
+  { name: 'Создание сайтов', href: '/imprint' },
 ];
 
 export const socials = [

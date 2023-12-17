@@ -60,8 +60,8 @@ export const Footer = () => {
                 })}
               </nav>
             </div>
-            {/* <div className="flex flex-col gap-3">
-            <span className="font-medium">Юридические</span>
+            <div className="flex flex-col gap-3">
+            <span className="font-medium">Разработка</span>
             <nav className="flex flex-col gap-3">
               {legals.map(({ name, href }) => {
                 return (
@@ -73,10 +73,12 @@ export const Footer = () => {
                   >
                     {name}
                   </Link>
+
+                  
                 );
               })}
             </nav>
-          </div> */}
+          </div>
           </div>
         </div>
       </footer>
