@@ -14,7 +14,7 @@ export function SectionHero() {
         <section className="relative rounded-t-3xl w-full h-section-hero pt-16 overflow-hidden bg-hero bg-top">
             <GridContainer className="flex flex-col items-center">
                 <div className="w-full max-w-text-hero text-center">
-                    <h3 className="text-xl font-medium text-white mb-4">Официальный сайт ведущей команды по велоспорту</h3>
+                    <h3 className="text-xl font-medium text-white mb-4">Официальный сайт ведущей команды по велоспорту города Воронеж</h3>
                     <h1 className="text-white text-5xl/normal font-semibold mb-2">ВелоЛидер</h1>
                     <div className="flex items-center justify-center gap-10">
                         <button className="flex items-center gap-2">

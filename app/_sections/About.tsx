@@ -1,16 +1,19 @@
 import { Label } from '@/components/Label';
 import Image from 'next/image';
 
+import Gallery from '@/components/Gallery/Gallery'
+
+
 export const AboutSection = () => {
   return (
     <div className="relative mb-16 md:mb-32">
       <div className="px-container mx-auto flex max-w-xl flex-col-reverse items-center gap-8 py-8 md:gap-16 lg:max-w-container lg:flex-row">
         <div>
           <h3 className="font-accent text-3xl font-medium md:text-4xl">
-            Команда ВелоЛидера
+            Команда ВелоЛидер
           </h3>
           <p className="my-5 text-xl md:text-2xl">
-            Спорт - это, прежде всего, особая система воспитания человека. Наша команда делает всё возможное для совершенствования велоспорта в Воронежской области
+            Спорт - это, прежде всего, особая система воспитания человека. Наша команда делает всё возможное для совершенствования личности, даёт шанс реализовать свои возможности в сфере велоспорта в Воронежской области
           </p>
           <p className="my-5 opacity-90">
             Мы ждём именно тебя
@@ -34,6 +37,10 @@ export const AboutSection = () => {
           </span>
         </div>
       </div>
+      <h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
+          Наша команда
+        </h2>
+      <Gallery />
     </div>
   );
 };
