@@ -1,6 +1,7 @@
 import { AboutSection } from './_sections/About';
 import { AudienceSection } from './_sections/Audience';
 import { CTASection } from './_sections/CTA';
+import { OffersSection } from './_sections/Offers';
 import { ChallengesSection } from './_sections/Challenges';
 import { CompaniesSection } from './_sections/Companies';
 import { HeroSection } from './_sections/Hero';
@@ -24,7 +25,8 @@ const Home = () => {
       <ReviewsSection />
       {/* <AudienceSection /> */}
       {/* <MethodSection /> */}
-      <CTASection id="cta-method" variant="sun" />
+      {/* <CTASection id="cta-method" variant="sun" /> */}
+      <OffersSection id="cta-method" variant="sun" />
     </main>
   );
 };
