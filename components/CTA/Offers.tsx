@@ -6,7 +6,6 @@ import React from "react";
 import { CheckCircle } from 'lucide-react';
 import { VariantProps, tv } from 'tailwind-variants';
 import Image from 'next/image';
-import Popup from '../Modal/Modal';
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 
 
@@ -45,7 +44,7 @@ export const Offers: FC<OffersProps> = ({
   title = "Связаться с нами",
   description = 'Команда ВелоЛидер стремится быть доступной и своевременно отвечать на все поступающие в наш адрес запросы.',
   buttonText = 'Оставить заявку',
-  buttonLink = Popup,
+  buttonLink = FreshEyesAuditSchedulingLink,
   buttonAdornment = <DefaultButtonAdornment />,
 //   benefits = ['+-30 мин', 'Обратная связь'],
   secondaryButtonText,
