@@ -18,5 +18,7 @@ import posts__015AntikPostMdx from './posts__015-antik-post.mdx.json' assert { t
 import posts__016TonkihPostMdx from './posts__016-tonkih-post.mdx.json' assert { type: 'json' }
 import posts__017AgapovMaksimPostMdx from './posts__017-agapov-maksim-post.mdx.json' assert { type: 'json' }
 import posts__018RyabovMaksimPostMdx from './posts__018-ryabov-maksim-post.mdx.json' assert { type: 'json' }
+import posts__019DyblenkoArtyomMdx from './posts__019-dyblenko-artyom.mdx.json' assert { type: 'json' }
+import posts__020ShikinAlexanderMdx from './posts__020-shikin-alexander.mdx.json' assert { type: 'json' }
 
-export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018RyabovMaksimPostMdx]
+export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018RyabovMaksimPostMdx, posts__019DyblenkoArtyomMdx, posts__020ShikinAlexanderMdx]

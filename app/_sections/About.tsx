@@ -2,6 +2,7 @@ import { Label } from '@/components/Label';
 import Image from 'next/image';
 
 import Gallery from '@/components/Gallery/Gallery'
+import Staff from '@/components/Gallery/Staff'
 
 
 export const AboutSection = () => {
@@ -41,6 +42,11 @@ export const AboutSection = () => {
           Наша команда
         </h2>
       <Gallery />
+
+      <h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
+          Персонал
+        </h2>
+      <Staff />
     </div>
   );
 };
