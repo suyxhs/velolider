@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const {nextui} = require("@nextui-org/react");
+
 module.exports = {
   darkMode: 'class',
   future: {
@@ -60,7 +61,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('/bg-hero2.jpg')",
-        'hero-pattern': "url('/bg-hero2.jpg')"
+        'hero-pattern': "url('/bg-hero2.jpg')",
+        'popup': "url('/images/user/postPeople/popov9.jpg')"
       },
       animation: {
         'scrolling-container': 'scrolling-container 30000ms linear infinite',

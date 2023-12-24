@@ -2,6 +2,8 @@
 
 import type { FC } from 'react';
 import React from "react";
+import * as Dialog from '@radix-ui/react-dialog';
+import { Cross2Icon } from '@radix-ui/react-icons';
 
 import { CheckCircle } from 'lucide-react';
 import { VariantProps, tv } from 'tailwind-variants';
@@ -72,47 +74,69 @@ export const Offers: FC<OffersProps> = ({
               {secondaryButtonText}
             </Button>
           )} */}
-          <Button className='focus-default inline-block flex-shrink-0 cursor-pointer rounded-full px-[20px] py-[10px] !font-medium transition-colors bg-black text-white' onPress={onOpen}>Оставить заявку</Button>
-      <Modal 
-        backdrop="opaque" 
-        isOpen={isOpen} 
-        onOpenChange={onOpenChange}
-        classNames={{
-          backdrop: "bg-gradient-to-t from-black backdrop-opacity-20"
-        }}
-      >
-        <ModalContent className='bg-black rounded-lg text-white'>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
-              <ModalBody>
-                <p> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p>
-              </ModalBody>
-              <ModalFooter>
-                <Button className='bg-mint p-3 rounded-md text-black' color="danger" variant="ghost" onPress={onClose}>
-                  Отправить
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
+          <Dialog.Root>
+    <Dialog.Trigger asChild>
+      <button className="bg-black text-white focus-default inline-block flex-shrink-0 cursor-pointer rounded-full px-[20px] py-[10px] !font-medium transition-colors">
+        Отправить заявку
+      </button>
+    </Dialog.Trigger>
+    <Dialog.Portal>
+      <Dialog.Overlay className="bg-white/30 backdrop-blur-md data-[state=open]:animate-overlayShow fixed inset-0" />
+      <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[20px] bg-popup bg-cover p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
+        <Dialog.Title className="text-mauve12 m-0 text-[25px] font-medium text-white">
+            Форма обратной связи
+        </Dialog.Title>
+        <Dialog.Description className="text-green-btn mt-[5px] mb-5 text-[15px] leading-normal">
+            Оставьте свои данные для обратной связи
+        </Dialog.Description>
+        <fieldset className="mb-[15px] gap-5">
+          <label className="text-white w-[90px] text-right text-[15px]" htmlFor="name">
+            Ваше имя
+          </label>
+          <input
+            className="border-green-btn text-black shadow-violet7 focus:shadow-violet8 inline-flex h-[35px] w-full flex-1 items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
+            id="name"
+            placeholder='Имя'
+          />
+        </fieldset>
+        <fieldset className="mb-[15px]  gap-5">
+          <label className="text-white w-[90px] text-right text-[15px]" htmlFor="username">
+            Ваша почта
+          </label>
+          <input
+            className="text-violet11 shadow-violet7 focus:shadow-violet8 inline-flex h-[35px] w-full flex-1 items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
+            id="username"
+            placeholder='velolider@example.com'
+          />
+        </fieldset>
+        <fieldset className="mb-[15px] gap-5">
+          <label className="text-white w-[90px] text-right text-[15px]" htmlFor="message">
+            Ваше сообщение
+          </label>
+          <textarea
+            className="p-4 text-violet11 shadow-violet7 focus:shadow-violet8 h-[100px] inline-flex  w-full flex-1 items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none shadow-[0_0_0_1px] outline-none focus:shadow-[0_0_0_2px]"
+            id="message"
+            placeholder='Сообщение'
+          />
+        </fieldset>
+        <div className="mt-[25px] flex justify-end">
+          <Dialog.Close asChild>
+            <button className="bg-green-btn text-green11 hover:bg-green-btn focus:shadow-green-btn inline-flex h-[35px] items-center justify-center rounded-[4px] px-[15px] font-medium leading-none focus:shadow-[0_0_0_2px] focus:outline-none">
+              Отправить
+            </button>
+          </Dialog.Close>
+        </div>
+        <Dialog.Close asChild>
+          <button
+            className="text-violet11 hover:bg-violet4 focus:shadow-violet7 absolute top-[10px] right-[10px] inline-flex h-[25px] w-[25px] appearance-none items-center justify-center rounded-full focus:shadow-[0_0_0_2px] focus:outline-none"
+            aria-label="Close"
+          >
+            <Cross2Icon />
+          </button>
+        </Dialog.Close>
+      </Dialog.Content>
+    </Dialog.Portal>
+  </Dialog.Root>
           {buttonAdornment}
         </div>
         {/* {benefits && (
