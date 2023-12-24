@@ -13,6 +13,8 @@ import { BubbleHeart, BubbleSparkles, BubbleThumbsUp } from '@/components/Icon';
 
 import { TaskCard } from '../_components/TaskCard';
 import { HighlightContent } from '../_components/HighlightContent';
+import Gallery from '@/components/Gallery/Gallery'
+
 
 const getProjectBySlug = (slug: string) => {
   const project = allProjects.find(project => project.slug === slug);
@@ -145,53 +147,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
             </div>
           )}
         </div>
-        {project.responsibilities?.length && (
-          <div className="mx-auto grid w-full max-w-5xl">
-            <Tagline>КОММЕНТАРИИ ПОСЛЕ ФИЛЬМА</Tagline>
-            <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-              {project.responsibilities.map(markdown => (
-                <TaskCard key={markdown.html} title={markdown} />
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-      {project.carousel?.length ? (
-        <div className="px-container mx-auto my-16 grid max-w-[2000px] grid-cols-1 gap-20 overflow-hidden py-8 md:my-32 md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
-          {project.carousel.map((image, index) => {
-            const rotation = imageRotations[index % imageRotations.length];
-            return (
-              <div
-                key={image.src}
-                className={clsx(
-                  'relative mx-auto max-w-lg lg:max-w-none',
-                  rotation
-                )}
-              >
-                <div className="aspect-[16/9] h-full w-full overflow-hidden rounded-xl ring-2 ring-black-300 ring-offset-4 ring-offset-black-100 dark:ring-black-900 dark:ring-offset-black">
-                  <ImageWithZoom
-                    src={image.src}
-                    alt={image.alt}
-                    width={1600}
-                    height={900}
-                    sizes="(max-width: 768px) 100vw, 1600px"
-                    className="bg-black-100 dark:bg-black-900"
-                  />
-                </div>
-                {image.caption?.html && (
-                  <div
-                    className="absolute -bottom-8 w-full text-center text-sm opacity-50"
-                    dangerouslySetInnerHTML={{ __html: image.caption.html }}
-                  />
-                )}
-              </div>
-            );
-          })}
-        </div>
-      ) : (
-        <div className="px-container mx-auto my-8 py-8 md:my-16" />
-      )}
-      <div className="px-container mx-auto grid max-w-6xl grid-cols-1 gap-32 lg:grid-cols-[2fr_1fr]">
+        <div className="px-container mx-auto grid max-w-6xl grid-cols-1 gap-32 lg:grid-cols-[2fr_1fr]">
         <div className="order-2 flex flex-col gap-8 lg:order-1">
           {project.body.raw && (
             <div>
@@ -251,6 +207,58 @@ const Project = ({ params }: { params: { slug: string } }) => {
           </aside>
         )}
       </div>
+        {project.responsibilities?.length && (
+          <div className="mx-auto grid w-full max-w-5xl pt-10">
+            <Tagline>КОММЕНТАРИИ ПОСЛЕ ФИЛЬМА</Tagline>
+            <div className="mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {project.responsibilities.map(markdown => (
+                <TaskCard key={markdown.html} title={markdown} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+      {project.carousel?.length ? (
+        <div className="px-container mx-auto my-16 grid max-w-[2000px] grid-cols-1 gap-20 overflow-hidden py-8 md:my-32 md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
+          {project.carousel.map((image, index) => {
+            const rotation = imageRotations[index % imageRotations.length];
+            return (
+              <div
+                key={image.src}
+                className={clsx(
+                  'relative mx-auto max-w-lg lg:max-w-none',
+                  rotation
+                )}
+              >
+                <div className="aspect-[16/9] h-full w-full overflow-hidden rounded-xl ring-2 ring-black-300 ring-offset-4 ring-offset-black-100 dark:ring-black-900 dark:ring-offset-black">
+                  <ImageWithZoom
+                    src={image.src}
+                    alt={image.alt}
+                    width={1600}
+                    height={900}
+                    sizes="(max-width: 768px) 100vw, 1600px"
+                    className="bg-black-100 dark:bg-black-900"
+                  />
+                </div>
+                {image.caption?.html && (
+                  <div
+                    className="absolute -bottom-8 w-full text-center text-sm opacity-50"
+                    dangerouslySetInnerHTML={{ __html: image.caption.html }}
+                  />
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="px-container mx-auto my-8 py-8 md:my-16" />
+      )}
+
+<h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
+          Наша команда
+        </h2>
+      <Gallery />
+      
       <div className="px-container mx-auto my-24 max-w-container">
         <CTA variant="mint" />
       </div>
