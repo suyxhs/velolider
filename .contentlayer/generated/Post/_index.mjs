@@ -20,5 +20,10 @@ import posts__017AgapovMaksimPostMdx from './posts__017-agapov-maksim-post.mdx.j
 import posts__018RyabovMaksimPostMdx from './posts__018-ryabov-maksim-post.mdx.json' assert { type: 'json' }
 import posts__019DyblenkoArtyomMdx from './posts__019-dyblenko-artyom.mdx.json' assert { type: 'json' }
 import posts__020ShikinAlexanderMdx from './posts__020-shikin-alexander.mdx.json' assert { type: 'json' }
+import posts__021KulnevKonstantnMdx from './posts__021-kulnev-konstantn.mdx.json' assert { type: 'json' }
+import posts__022DolzhenkoKirillMdx from './posts__022-dolzhenko-kirill.mdx.json' assert { type: 'json' }
+import posts__023KolesnikovIvanMdx from './posts__023-kolesnikov-ivan.mdx.json' assert { type: 'json' }
+import posts__024KartashovIvanMdx from './posts__024-kartashov-ivan.mdx.json' assert { type: 'json' }
+import posts__025TrufanovaAnastasiaMdx from './posts__025-trufanova-anastasia.mdx.json' assert { type: 'json' }
 
-export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018RyabovMaksimPostMdx, posts__019DyblenkoArtyomMdx, posts__020ShikinAlexanderMdx]
+export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018RyabovMaksimPostMdx, posts__019DyblenkoArtyomMdx, posts__020ShikinAlexanderMdx, posts__021KulnevKonstantnMdx, posts__022DolzhenkoKirillMdx, posts__023KolesnikovIvanMdx, posts__024KartashovIvanMdx, posts__025TrufanovaAnastasiaMdx]
