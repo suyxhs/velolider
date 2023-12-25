@@ -8,7 +8,7 @@ export const MdxLearningPath: FC<MdxLearningPathProps> = ({ items }) => {
   return (
     <div className="my-12 rounded-lg border-4 border-violet text-base">
       <div className="not-prose bg-violet px-2 py-1 text-sm font-medium uppercase text-black/75">
-        Протоколы
+        Карточка спортсмена
       </div>
       <ul className="mx-2 my-4">
         {items.map(item => {

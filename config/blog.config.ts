@@ -14,6 +14,6 @@ export const CategoryColors: Record<
 
 export const favorites: Post['slug'][] = [
   'class-schedule',
-  'popov-anton-post',
-  'frolova-natalia',
+  'protocols',
+  'agapov-oleg',
 ];
