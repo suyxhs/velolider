@@ -147,7 +147,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
             </div>
           )}
         </div>
-        <div className="px-container mx-auto grid max-w-6xl grid-cols-1 gap-32 lg:grid-cols-[2fr_1fr]">
+        <div className=" mx-auto grid max-w-6xl grid-cols-1 gap-32 lg:grid-cols-[2fr_1fr]">
         <div className="order-2 flex flex-col gap-8 lg:order-1">
           {project.body.raw && (
             <div>

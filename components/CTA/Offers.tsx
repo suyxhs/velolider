@@ -8,7 +8,7 @@ import { Cross2Icon } from '@radix-ui/react-icons';
 import { CheckCircle } from 'lucide-react';
 import { VariantProps, tv } from 'tailwind-variants';
 import Image from 'next/image';
-import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
+
 
 
 // import { Button } from '../Button';
@@ -53,7 +53,7 @@ export const Offers: FC<OffersProps> = ({
   secondaryButtonLink,
   variant,
 }) => {
-    const {isOpen, onOpen, onOpenChange} = useDisclosure();
+
   return (
     <div className={offers({ variant })}>
       <div className="mx-auto max-w-4xl">
@@ -82,7 +82,7 @@ export const Offers: FC<OffersProps> = ({
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="bg-white/30 backdrop-blur-md data-[state=open]:animate-overlayShow fixed inset-0" />
-      <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[20px] bg-popup bg-cover p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
+      <Dialog.Content className="data-[state=open]:animate-contentShow fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[20px] bg-popup bg-cover p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none ">
         <Dialog.Title className="text-mauve12 m-0 text-[25px] font-medium text-white">
             Форма обратной связи
         </Dialog.Title>
