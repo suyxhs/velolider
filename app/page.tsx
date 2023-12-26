@@ -10,6 +10,7 @@ import { ReviewsSection } from './_sections/Reviews';
 import { ServicesSection } from './_sections/Services';
 import { SectionCards } from './_sections/section-cards';
 import { SectionHero } from './_sections/section-hero';
+import { DefaultAccordion } from '@/components/ui/Accordion';
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       {/* <AudienceSection /> */}
       {/* <MethodSection /> */}
       {/* <CTASection id="cta-method" variant="sun" /> */}
+      <DefaultAccordion />
       <OffersSection id="cta-method" variant="sun" />
     </main>
   );

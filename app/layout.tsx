@@ -13,6 +13,7 @@ import ScrollToTopButton from '@/components/ScrollToTop/ScrollToTopButton'
 
 
 import { Providers } from './providers';
+import Notify from '@/components/Notify/Notify';
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -37,6 +38,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <Providers>
           <div className="min-h-screen" data-page-root>
+          {/* <div className='hidden md:block'>
+          <Notify />
+          </div> */}
             <Header />
             <ScrollToTopButton />
             {children}
@@ -69,6 +73,7 @@ export const metadata: Metadata = {
     'ВелоЛидер',
     'Спорт',
     'Победа будет за нами',
+    'Велосипед',
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {

@@ -43,7 +43,7 @@ export const AboutSection = () => {
         </h2>
       <Gallery />
 
-      <h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
+      <h2 className="mb-5 mt-20 text-center font-accent text-4xl font-medium md:text-5xl">
           Персонал
         </h2>
       <Staff />

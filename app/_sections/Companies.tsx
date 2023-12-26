@@ -22,7 +22,7 @@ export const CompaniesSection = () => {
         enterFrom="opacity-0 scale-80"
         enterTo="opacity-100 scale-100"
       >
-        <div className="lg:px-container hidden lg:mx-auto lg:flex lg:max-w-container">
+        {/* <div className="lg:px-container hidden lg:mx-auto lg:flex lg:max-w-container">
           {companies.map(company => {
             return (
               <a
@@ -41,14 +41,14 @@ export const CompaniesSection = () => {
                     width: company.width || 140,
                     height: company.height || 40,
                   }}
-                  className="object-contain opacity-80 grayscale transition-all hover:opacity-100 dark:opacity-100"
+                  className="object-contain opacity-80  transition-all hover:opacity-100 dark:opacity-100"
                 />
               </a>
             );
           })}
-        </div>
+        </div> */}
         <div
-          className="flex w-[400%] animate-scrolling-container sm:w-[100%] lg:hidden"
+          className="flex w-[400%] animate-scrolling-container sm:w-[100%] "
           aria-hidden={true}
         >
           {[...companies, ...companies].map((company, key) => {
