@@ -25,20 +25,26 @@ export default function Gallery() {
                     </div>
                 </Link>
 
+                <Link href="/blog/khatuntseva-alexandra" className="a-reset focus-default">
                 <div >
                     <Image src={Hatunceva} className='rounded-[20px] mb-5' alt={'person'} />
                     <p>Хатунцева Александра</p>
                 </div>
+                </Link>
 
+                <Link href="/blog/shikin-alexander" className="a-reset focus-default">
                 <div className="mt-10">
                     <Image src={Shikin} className='rounded-[20px] mb-5' alt={'person'} />
                     <p>Шикин Александр</p>
                 </div>
+                </Link>
 
+                <Link href="/blog/dyblenko-artyom" className="a-reset focus-default">
                 <div>
-                    <Image src={Diblenko} className='rounded-[20px] mb-5' alt={'person'} />
+                <Image src={Diblenko} className='rounded-[20px] mb-5' alt={'person'} />
                     <p>Дыбленко Артём</p>
                 </div>
+                </Link>
             </div>
             <Button as="a" href='/blog' className="bg-green-btn text-black mt-10">
                 Все спортсмены
