@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import Gallery from '@/components/Gallery/Gallery'
 import Staff from '@/components/Gallery/Staff'
+import Stories from '@/components/Stories/Stories';
 
 
 export const AboutSection = () => {
@@ -47,6 +48,7 @@ export const AboutSection = () => {
           Персонал
         </h2>
       <Staff />
+      <Stories />
     </div>
   );
 };

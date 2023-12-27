@@ -38,9 +38,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <Providers>
           <div className="min-h-screen" data-page-root>
-          {/* <div className='hidden md:block'>
+          <div className='hidden md:block'>
           <Notify />
-          </div> */}
+          </div>
             <Header />
             <ScrollToTopButton />
             {children}

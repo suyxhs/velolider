@@ -18,7 +18,7 @@ export default function Staff() {
             <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
 
 
-                <Link href="/blog/agapov-maksim-post" className="a-reset focus-default">
+                <Link href="/blog/agapov-oleg" className="a-reset focus-default">
                     <div className="mt-10">
                         <Image src={Agapov} className='rounded-[20px] mb-5' alt={'person'} />
                         <p className='text-[18px] font-bold '>Агапов Олег</p>
