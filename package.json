@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.24.8",
+    "@gobistories/gobi-react": "^1.0.3",
     "@googlemaps/js-api-loader": "^1.16.2",
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.1.1",
@@ -32,7 +33,6 @@
     "date-fns": "^2.30.0",
     "feed": "^4.2.2",
     "framer-motion": "^10.16.16",
-    "gobi-react": "^1.0.2",
     "lucide-react": "^0.259.0",
     "next": "13.4.19",
     "next-contentlayer": "^0.3.4",
