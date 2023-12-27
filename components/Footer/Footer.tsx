@@ -4,6 +4,7 @@ import { legals, navigation, socials } from '@/config/navigation.config';
 import { Logo } from '../Logo';
 import Script from "next/script";
 import Map from "@/components/Map/Map"
+import { ClipboardWithTooltip } from '../ui/Clipboard';
 
 const year = new Date().getFullYear();
 
@@ -17,12 +18,13 @@ export const Footer = () => {
             <span className="mt-3 block text-sm text-white">
               &copy; {year} ВелоЛидер
             </span>
-            <div className="mt-12 rounded-lg border-4 border-violet text-base">
+            <div className="mt-12 mb-5 rounded-lg border-4 border-violet text-base">
               <div className="not-prose bg-violet px-2 py-1 text-sm font-medium uppercase text-black/75">
                 Мы на карте
               </div>
               <Map />
             </div>
+              <ClipboardWithTooltip />
           </div>
           <div className="flex flex-row flex-wrap gap-x-14 gap-y-10 text-sm text-white">
             <div className="flex min-w-[110px] flex-col gap-3 sm:min-w-[160px] lg:min-w-[200px]">
@@ -73,8 +75,6 @@ export const Footer = () => {
                   >
                     {name}
                   </Link>
-
-                  
                 );
               })}
             </nav>

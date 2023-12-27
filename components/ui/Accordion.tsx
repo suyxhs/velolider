@@ -30,7 +30,9 @@ export function DefaultAccordion() {
           Где проходят тренировки?
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
-          text text text
+          У основного состава тренировки проходят на шоссе, также наша команда специализируется на треке. <br />
+          У резервного состава тренировки проходят на шоссе, а также а байке в лестной местности. <br />
+          Новички тренируются на стадионах, в парках и в лестной местности.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
@@ -40,10 +42,10 @@ export function DefaultAccordion() {
             open === 2 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Вопрос 2?
+          С какого возраста принимают в спортивную школу?
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
-          text text text
+          Набор в школу олимпийского резерва начинается с 7 лет.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4">
@@ -53,7 +55,7 @@ export function DefaultAccordion() {
             open === 3 ? "text-blue-500 hover:!text-blue-700" : ""
           }`}
         >
-          Вопрос 3?
+          Какие документы требуются?
         </AccordionHeader>
         <AccordionBody className="pt-0 text-base font-normal">
           text text text

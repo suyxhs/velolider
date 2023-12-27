@@ -8,6 +8,8 @@ import {
   SpeedingClock,
 } from '@/components/Icon';
 
+
+
 export const ChallengesSection = () => {
   return (
     <div className="relative mb-16 md:mb-32">
