@@ -67,11 +67,16 @@ module.exports = {
       },
       animation: {
         'scrolling-container': 'scrolling-container 30000ms linear infinite',
+        'loop-scroll': 'loop-scroll 50s linear infinite',
       },
       keyframes: {
         'scrolling-container': {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
+        },
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         },
       },
       

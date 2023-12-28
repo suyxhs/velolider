@@ -5,6 +5,7 @@ import Gallery from '@/components/Gallery/Gallery'
 import Staff from '@/components/Gallery/Staff'
 
 
+
 export const AboutSection = () => {
   return (
     <div className="relative mb-16 md:mb-32">
@@ -47,6 +48,8 @@ export const AboutSection = () => {
           Персонал
         </h2>
       <Staff />
+
+
     </div>
   );
 };

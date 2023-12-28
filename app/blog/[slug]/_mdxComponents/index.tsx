@@ -7,6 +7,7 @@ import { MdxTargetAudience } from './TargetAudience';
 import { MdxBlockquote } from './Blockquote';
 import { MdxCodeInline } from './CodeInline';
 import { MdxCodeBlock } from './CodeBlock';
+import { MdxFormerRacers } from './FormerRacers';
 
 export const mdxComponents: MDXComponents = {
   // @ts-expect-error
@@ -15,7 +16,7 @@ export const mdxComponents: MDXComponents = {
   code: MdxCodeInline,
   // @ts-expect-error
   pre: MdxCodeBlock,
-
+  FormerRacers: MdxFormerRacers,
   Callout: MdxCallout,
   Image: MdxImage,
   LearningPath: MdxLearningPath,
