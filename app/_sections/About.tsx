@@ -48,8 +48,6 @@ export const AboutSection = () => {
           Персонал
         </h2>
       <Staff />
-
-
     </div>
   );
 };

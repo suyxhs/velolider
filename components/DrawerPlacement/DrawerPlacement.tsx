@@ -16,7 +16,7 @@ export function DrawerPlacement() {
  
   return (
     <React.Fragment>
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 md:hidden">
         <Button className="text-black bg-green-btn" onClick={openDrawerBottom}>Подробная информация</Button>
 
       </div>
