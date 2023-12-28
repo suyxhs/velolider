@@ -5,6 +5,7 @@ import { Logo } from '../Logo';
 import Script from "next/script";
 import Map from "@/components/Map/Map"
 import { ClipboardWithTooltip } from '../ui/Clipboard';
+import { DrawerPlacement } from '../DrawerPlacement/DrawerPlacement';
 
 const year = new Date().getFullYear();
 
@@ -25,6 +26,9 @@ export const Footer = () => {
               <Map />
             </div>
               <ClipboardWithTooltip />
+              <div className='mt-5'>
+              <DrawerPlacement />
+              </div>
           </div>
           <div className="flex flex-row flex-wrap gap-x-14 gap-y-10 text-sm text-white">
             <div className="flex min-w-[110px] flex-col gap-3 sm:min-w-[160px] lg:min-w-[200px]">
