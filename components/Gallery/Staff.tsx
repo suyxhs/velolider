@@ -28,12 +28,14 @@ export default function Staff() {
 
                 <div >
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
-                    <p>Кравченко Виктория</p>
+                    <p className='text-[18px] font-bold '>Кравченко Виктория</p>
+                    <span className='text-[0.8em] opacity-80'>Тренер-стажёр младшей группы</span>
                 </div>
 
                 <div className="mt-10">
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
-                    <p>Кравченко Виктория</p>
+                    <p className='text-[18px] font-bold '>Тонких Илья</p>
+                    <span className='text-[0.8em] opacity-80'>Механик</span>
                 </div>
 
                 <div>
