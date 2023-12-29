@@ -33,7 +33,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
             <Link
               href="/blog#timeline"
               role="button"
-              aria-label="View all posts"
+              aria-label="Все посты"
               className="a-reset hover:bg-white-200 absolute -left-16 top-[46px] hidden p-1 opacity-50 hover:bg-black-100 dark:hover:bg-black-900 md:block"
             >
               <span className="sr-only">Назад</span>

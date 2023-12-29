@@ -21,20 +21,20 @@ export default function Staff() {
                 <Link href="/blog/agapov-oleg" className="a-reset focus-default">
                     <div className="mt-10">
                         <Image src={Agapov} className='rounded-[20px] mb-5' alt={'person'} />
-                        <p className='text-[18px] font-bold '>Агапов Олег</p>
+                        <p className='text-[15px] font-bold '>Агапов Олег</p>
                         <span className='text-[0.8em] opacity-80'>Главный тренер</span>
                     </div>
                 </Link>
 
                 <div >
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
-                    <p className='text-[18px] font-bold '>Кравченко Виктория</p>
+                    <p className='text-[15px] font-bold '>Кравченко Виктория</p>
                     <span className='text-[0.8em] opacity-80'>Тренер-стажёр младшей группы</span>
                 </div>
 
                 <div className="mt-10">
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
-                    <p className='text-[18px] font-bold '>Тонких Илья</p>
+                    <p className='text-[15px] font-bold '>Тонких Илья</p>
                     <span className='text-[0.8em] opacity-80'>Механик</span>
                 </div>
 

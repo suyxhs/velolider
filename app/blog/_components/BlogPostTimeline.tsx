@@ -10,6 +10,7 @@ import { Button } from '@/components/Button';
 
 const CATEGORIES = Object.keys(CategoryColors);
 
+
 export const BlogPostTimeline: FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>();
 
