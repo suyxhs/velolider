@@ -8,7 +8,7 @@ import { Button } from '@/components/Button';
 
 import Agapov from '/public/images/gallery/agapov.jpg'
 import Kravchenko from '/public/images/reviews/kravchenko.jpg'
-import Shikin from '/public/images/reviews/kravchenko.jpg'
+import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t1.jpg'
 import Diblenko from '/public/images/reviews/kravchenko.jpg'
 
 
@@ -33,14 +33,15 @@ export default function Staff() {
                 </div>
 
                 <div className="mt-10">
-                    <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
+                    <Image src={Tonkih} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Тонких Илья</p>
                     <span className='text-[0.8em] opacity-80'>Механик</span>
                 </div>
 
                 <div>
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
-                    <p>Кравченко Виктория</p>
+                    <p className='text-[15px] font-bold '>Денис Олегович</p>
+                    <span className='text-[0.8em] opacity-80'>Тренер средней группы</span>
                 </div>
             </div>
             <Button as="a" href='/blog' className="bg-green-btn text-black mt-10">

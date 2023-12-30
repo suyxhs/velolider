@@ -25,11 +25,11 @@ export const BlogPostTimeline: FC = () => {
     });
 
   return (
-    <div id="timeline" className="scroll-m-8">
+    <div id="timeline" className="scroll-m-8 ">
       <h2 className="block font-accent text-2xl font-medium md:mb-10 md:hidden">
         Все посты
       </h2>
-      <div className="mb-4 flex gap-2 overflow-x-auto py-4 pl-1">
+      <div className="mb-4 flex  overflow-x-auto py-4 pl-1">
         <Button
           as="button"
           size="sm"
@@ -58,7 +58,7 @@ export const BlogPostTimeline: FC = () => {
           );
         })}
       </div>
-      <div className="flex flex-col flex-wrap gap-4 sm:flex-row lg:flex-col items-center">
+      <div className="flex flex-col flex-wrap gap-4 sm:flex-row lg:flex-col items-center md:items-start">
         {posts.map(post => {
           return (
             <BlogPostCard

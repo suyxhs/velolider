@@ -18,7 +18,7 @@ export type Post = {
   summary?: string | undefined
   cover?: Image | undefined
   externals?: Externals | undefined
-  category?: 'Элита' | 'Лидеры' | 'Протоколы' | 'Персонал' | 'Прочее' | 'Спонсоры' | undefined
+  category?: 'Элита' | 'Лидеры' | 'Легионеры' | 'Протоколы' | 'Персонал' | 'Прочее' | 'Спонсоры' | undefined
   tags?: string[] | undefined
   /** MDX file body */
   body: MDX

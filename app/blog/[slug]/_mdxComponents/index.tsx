@@ -9,6 +9,7 @@ import { MdxCodeInline } from './CodeInline';
 import { MdxCodeBlock } from './CodeBlock';
 import { MdxFormerRacers } from './FormerRacers';
 
+
 export const mdxComponents: MDXComponents = {
   // @ts-expect-error
   blockquote: MdxBlockquote,
