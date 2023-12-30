@@ -46,7 +46,7 @@ export default function Gallery() {
                 </div>
                 </Link>
             </div>
-            <Button as="a" href='/blog' className="bg-green-btn text-black mt-10">
+            <Button as="a" href='/leaders' className="bg-green-btn text-black mt-10">
                 Все спортсмены
             </Button>
         </div>

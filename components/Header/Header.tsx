@@ -13,6 +13,7 @@ import { Logo } from '../Logo';
 import { ScrollableRelativeToParent } from '../Helpers';
 import { SlideOver } from '../Slideover';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { MenuDefault } from '../ui/MenuDefault';
 
 
 export const Header = () => {
@@ -20,6 +21,7 @@ export const Header = () => {
     <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
       <Link href="/" className="a-reset focus-default rounded-md flex items-center">
         {/* <Logo textHidden /> */}
+        {/* <span className='font-medium text-sm'>команда</span> */}
         <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
       </Link>
       {/* DESKTOP */}
@@ -48,6 +50,7 @@ const NavigationItems: FC<{ className?: string }> = props => {
           </Button>
         );
       })}
+      <MenuDefault />
       <CallToActionButton className="mt-4 md:mt-0" />
       <ThemeToggle className="  md:bottom-0" />
     </nav>

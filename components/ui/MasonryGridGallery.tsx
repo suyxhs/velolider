@@ -84,7 +84,7 @@ export function MasonryGridGallery() {
   const [open, setOpen] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
  
-  const handleOpen = () => setOpen((cur) => !cur);
+  const handleOpen = () => setOpen(!open);
   const handleIsFavorite = () => setIsFavorite((cur) => !cur);
 
     return (
@@ -121,7 +121,7 @@ export function MasonryGridGallery() {
           </div>
           <div>
           <Image src={img1} onClick={handleOpen} className='rounded-[20px] h-full w-full object-cover object-center' alt={'person'} />
-
+         
           </div>
           <div>
           <Image src={img2} onClick={handleOpen} className='rounded-[20px] h-full w-full object-cover object-center' alt={'person'} />
