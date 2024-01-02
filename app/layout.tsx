@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/inline-script-id */
 import type { Metadata } from 'next';
 
 import PlausibleAnalytics from 'next-plausible';
@@ -14,6 +15,7 @@ import ScrollToTopButton from '@/components/ScrollToTop/ScrollToTopButton'
 
 import { Providers } from './providers';
 import Notify from '@/components/Notify/Notify';
+
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (

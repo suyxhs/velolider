@@ -5,8 +5,8 @@ export const CategoryColors: Record<
   'mint' | 'violet' | 'sun' | 'gray' 
 > = {
   Элита: 'mint',
-  Лидеры: 'mint',
   Легионеры: 'mint',
+  Лидеры: 'mint',
   Протоколы: 'violet',
   Персонал: 'sun',
   Прочее: 'gray',
