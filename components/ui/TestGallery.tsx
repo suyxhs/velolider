@@ -302,6 +302,6 @@ const imagesArray = [
 
 export default function TestGallery() {
   return ( 
-  <ImageGallery imgArray={imagesArray} columnWidth={180} gapSize={10} />
+  <ImageGallery imgArray={imagesArray} columnWidth={170} gapSize={10} />
   )
 }
