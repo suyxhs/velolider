@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { CTA } from '@/components/CTA';
 import { Hero } from '@/components/Hero';
 import { MasonryGridGallery } from '@/components/ui/MasonryGridGallery';
+import TestGallery from '@/components/ui/TestGallery';
 
 
 
@@ -16,7 +17,7 @@ const GalleryPage = () => {
         description="Основная информация про спортивную школу"
       />
       <div className="mb-24">
-      <MasonryGridGallery />
+      <TestGallery />
       </div>
       <CTA variant="sun" />
     </main>
