@@ -7,7 +7,7 @@ import Image, { ImageProps } from 'next/image';
 import { Button } from '@/components/Button';
 
 
-import Agapov from '/public/images/gallery/2.jpg'
+import AgapovMaksim from '/public/images/gallery/2.jpg'
 import Hatunceva from '/public/images/gallery/3.jpg'
 import Shikin from '/public/images/gallery/4.jpg'
 import Diblenko from '/public/images/gallery/5.jpg'
@@ -24,6 +24,12 @@ import Khatuntseva from '/public/images/gallery/15.jpg'
 import Dochkina from '/public/images/gallery/16.jpg'
 import Ivanov from '/public/images/gallery/17.jpg'
 import Yakovlev from '/public/images/gallery/18.jpg'
+
+
+import Agapov from '/public/images/gallery/agapov.jpg'
+import Kravchenko from '/public/images/reviews/kravchenko.jpg'
+import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
+import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo.jpg'
 
 
 
@@ -43,7 +49,7 @@ const LeadersPage = () => {
 
                 <Link href="/blog/agapov-maksim-post" className="a-reset focus-default">
                     <div className="mt-10">
-                        <Image src={Agapov} className='rounded-[20px] mb-5' alt={'person'} />
+                        <Image src={AgapovMaksim} className='rounded-[20px] mb-5' alt={'person'} />
                         <p>Агапов Максим</p>
                     </div>
                 </Link>
@@ -162,17 +168,70 @@ const LeadersPage = () => {
             </div>
 
       </div>
+
+
+      <div className="mb-24">
+
+      <Hero
+        className="pb-16 pt-9 md:pb-20 md:pt-1"
+        minHeight={false}
+        title={HeroTitle2}
+        description="Основная информация про спортивную школу"
+      />
+
+            <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
+
+
+            <Link href="/blog/agapov-oleg" className="a-reset focus-default">
+                    <div className="mt-10">
+                        <Image src={Agapov} className='rounded-[20px] mb-5' alt={'person'} />
+                        <p className='text-[15px] font-bold '>Агапов Олег</p>
+                        <span className='text-[0.8em] opacity-80'>Главный тренер</span>
+                    </div>
+                </Link>
+
+                <Link href="/blog/kravchenko-victoria" className="a-reset focus-default">
+                <div >
+                    <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
+                    <p className='text-[15px] font-bold '>Кравченко Виктория</p>
+                    <span className='text-[0.8em] opacity-80'>Тренер-стажёр младшей группы</span>
+                </div>
+                </Link>
+
+                <Link href="/blog/tonkih-post">
+                <div className="mt-10">
+                    <Image src={Tonkih} className='rounded-[20px] mb-5' alt={'person'} />
+                    <p className='text-[15px] font-bold '>Тонких Илья</p>
+                    <span className='text-[0.8em] opacity-80'>Механик</span>
+                </div>
+                </Link>
+
+                <Link href="/blog/agapov-denis">
+                <div>
+                    <Image src={AgapovDenis} className='rounded-[20px] mb-5' alt={'person'} />
+                    <p className='text-[15px] font-bold '>Агапов Денис</p>
+                    <span className='text-[0.8em] opacity-80'>Тренер средней группы</span>
+                </div>
+                </Link>
+            </div>
+
+      </div>
       <CTA variant="sun" />
     </main>
   );
 };
+
 
 const HeroTitle = (
   <>
     <span className="text-violet text-[50px]">Наши спортсмены</span>
   </>
 );
-
+const HeroTitle2 = (
+  <>
+    <span className="text-violet text-[50px]">Персонал</span>
+  </>
+);
 /** EXPORTS */
 
 export const metadata: Metadata = {

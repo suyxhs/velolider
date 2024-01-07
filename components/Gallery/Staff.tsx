@@ -26,23 +26,29 @@ export default function Staff() {
                     </div>
                 </Link>
 
+                <Link href="/blog/kravchenko-victoria" className="a-reset focus-default">
                 <div >
                     <Image src={Kravchenko} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Кравченко Виктория</p>
                     <span className='text-[0.8em] opacity-80'>Тренер-стажёр младшей группы</span>
                 </div>
+                </Link>
 
+                <Link href="/blog/tonkih-post">
                 <div className="mt-10">
                     <Image src={Tonkih} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Тонких Илья</p>
                     <span className='text-[0.8em] opacity-80'>Механик</span>
                 </div>
+                </Link>
 
+                <Link href="/blog/agapov-denis">
                 <div>
                     <Image src={AgapovDenis} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Агапов Денис</p>
                     <span className='text-[0.8em] opacity-80'>Тренер средней группы</span>
                 </div>
+                </Link>
             </div>
             <Button as="a" href='/blog' className="bg-green-btn text-black mt-10">
                 Весь персонал
