@@ -16,6 +16,15 @@ var Image = defineNestedType(() => ({
     caption: { type: "markdown" }
   }
 }));
+var Video = defineNestedType(() => ({
+  name: "Video",
+  fields: {
+    src: { type: "string", required: true },
+    alt: { type: "string", required: true },
+    thumbnail: { type: "string", required: true },
+    caption: { type: "markdown" }
+  }
+}));
 var Externals = defineNestedType(() => ({
   name: "Externals",
   fields: {
@@ -79,7 +88,8 @@ var Project = defineDocumentType(() => ({
     carousel: { type: "list", of: Image },
     responsibilities: { type: "list", of: { type: "markdown" } },
     achievements: { type: "list", of: { type: "markdown" } },
-    review: { type: "nested", of: Review }
+    review: { type: "nested", of: Review },
+    video: { type: "list", of: Video }
   },
   computedFields: {
     slug: {
@@ -114,4 +124,4 @@ export {
   Project,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-GNDPPC2E.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-NS7W2RCE.mjs.map

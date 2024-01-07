@@ -21,6 +21,16 @@ const Image = defineNestedType(() => ({
   },
 }));
 
+const Video = defineNestedType(() => ({
+  name: 'Video',
+  fields: {
+    src: { type: 'string', required: true },
+    alt: { type: 'string', required: true },
+    thumbnail: { type: 'string', required: true },
+    caption: { type: 'markdown' },
+  },
+}));
+
 const Externals = defineNestedType(() => ({
   name: 'Externals',
   fields: {
@@ -99,6 +109,7 @@ export const Project = defineDocumentType(() => ({
     responsibilities: { type: 'list', of: { type: 'markdown' } },
     achievements: { type: 'list', of: { type: 'markdown' } },
     review: { type: 'nested', of: Review },
+    video: {type: 'list', of: Video },
   },
   computedFields: {
     slug: {

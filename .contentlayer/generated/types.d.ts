@@ -44,6 +44,7 @@ export type Project = {
   responsibilities?: Markdown[] | undefined
   achievements?: Markdown[] | undefined
   review?: Review | undefined
+  video?: Video[] | undefined
   /** MDX file body */
   body: MDX
   slug: string
@@ -81,6 +82,18 @@ export type Review = {
   summary?: Markdown | undefined
   avatar?: Image | undefined
 
+}
+
+export type Video = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Video'
+  src: string
+  alt: string
+  thumbnail: string
+  caption?: Markdown | undefined
+
 }  
 
 /** Helper types */
@@ -91,8 +104,8 @@ export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 export type DocumentTypes = Post | Project
 export type DocumentTypeNames = 'Post' | 'Project'
 
-export type NestedTypes = Externals | Image | Review
-export type NestedTypeNames = 'Externals' | 'Image' | 'Review'
+export type NestedTypes = Externals | Image | Review | Video
+export type NestedTypeNames = 'Externals' | 'Image' | 'Review' | 'Video'
 
 export type DataExports = {
   allDocuments: DocumentTypes[]
@@ -125,6 +138,7 @@ export type NestedTypeMap = {
   Externals: Externals
   Image: Image
   Review: Review
+  Video: Video
 }
 
  

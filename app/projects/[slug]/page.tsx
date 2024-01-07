@@ -149,10 +149,11 @@ const Project = ({ params }: { params: { slug: string } }) => {
         </div>
         <div className=" mx-auto grid max-w-6xl grid-cols-1 gap-32 lg:grid-cols-[2fr_1fr]">
         <div className="order-2 flex flex-col gap-8 lg:order-1">
-          {project.body.raw && (
+          {project.body?.raw && (
             <div>
               <h2 className="mb-5 mt-4 font-accent text-4xl font-medium">
-                В тени чемпионов
+              <Tagline>В тени чемпионов</Tagline>
+
               </h2>
               <HighlightContent code={project.body.code} />
             </div>

@@ -2,5 +2,6 @@
 
 import projects__001LazyMdx from './projects__001-lazy.mdx.json' assert { type: 'json' }
 import projects__002ResultsMdx from './projects__002-results.mdx.json' assert { type: 'json' }
+import projects__003NewYearsFootballMdx from './projects__003-new-years-football.mdx.json' assert { type: 'json' }
 
-export const allProjects = [projects__001LazyMdx, projects__002ResultsMdx]
+export const allProjects = [projects__001LazyMdx, projects__002ResultsMdx, projects__003NewYearsFootballMdx]
