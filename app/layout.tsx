@@ -78,6 +78,10 @@ export const metadata: Metadata = {
     'Спорт',
     'Победа будет за нами',
     'Велосипед',
+    'Воронеж',
+    'Воронежская область',
+    'Команда велолидер',
+    'Voronezh cycling'
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {

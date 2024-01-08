@@ -6,10 +6,10 @@ import Image, { ImageProps } from 'next/image';
 import { Button } from '@/components/Button';
 
 
-import Agapov from '/public/images/gallery/agapov.jpg'
+import Agapov from '/public/images/posts/lider/staffLogoA.jpg'
 import Kravchenko from '/public/images/reviews/kravchenko.jpg'
 import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
-import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo.jpg'
+import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
 
 
 export default function Staff() {
