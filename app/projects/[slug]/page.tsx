@@ -14,6 +14,8 @@ import { BubbleHeart, BubbleSparkles, BubbleThumbsUp } from '@/components/Icon';
 import { TaskCard } from '../_components/TaskCard';
 import { HighlightContent } from '../_components/HighlightContent';
 import Gallery from '@/components/Gallery/Gallery'
+import { useMDXComponent } from 'next-contentlayer/hooks';
+
 
 
 const getProjectBySlug = (slug: string) => {
@@ -37,6 +39,7 @@ const imageRotations = [
 
 const Project = ({ params }: { params: { slug: string } }) => {
   const project = getProjectBySlug(params.slug);
+  const MDXContent = useMDXComponent(project.body.code);
 
   return (
     <main className="pb-24">
@@ -207,6 +210,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
           </aside>
         )}
       </div>
+      
         {project.responsibilities?.length && (
           <div className="mx-auto grid w-full max-w-5xl pt-10">
             <Tagline>КОММЕНТАРИИ ПОСЛЕ ФИЛЬМА</Tagline>
@@ -219,7 +223,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
         )}
       </div>
       {project.carousel?.length ? (
-        <div className="px-container mx-auto my-16 grid max-w-[2000px] grid-cols-1 gap-20 overflow-hidden py-8 md:my-32 md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
+        <div className="px-container mx-auto my-16 grid max-w-[2000px] grid-cols-1 gap-20 overflow-hidden py-8  md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
           {project.carousel.map((image, index) => {
             const rotation = imageRotations[index % imageRotations.length];
             return (
@@ -230,7 +234,7 @@ const Project = ({ params }: { params: { slug: string } }) => {
                   rotation
                 )}
               >
-                <div className="aspect-[16/9] h-full w-full overflow-hidden rounded-xl ring-2 ring-black-300 ring-offset-4 ring-offset-black-100 dark:ring-black-900 dark:ring-offset-black">
+                <div className="  overflow-hidden rounded-xl ring-2 ring-black-300 ring-offset-4 ring-offset-black-100 dark:ring-black-900 dark:ring-offset-black">
                   <ImageWithZoom
                     src={image.src}
                     alt={image.alt}

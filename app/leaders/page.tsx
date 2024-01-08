@@ -30,7 +30,7 @@ import Agapov from '/public/images/gallery/agapov.jpg'
 import Kravchenko from '/public/images/reviews/kravchenko.jpg'
 import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
 import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo.jpg'
-import { TabsDefault } from '@/components/ui/TabsDefault';
+
 
 
 
