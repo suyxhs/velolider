@@ -17,22 +17,22 @@ import posts__014VeterPostMdx from './posts__014-veter-post.mdx.json' assert { t
 import posts__015AntikPostMdx from './posts__015-antik-post.mdx.json' assert { type: 'json' }
 import posts__016TonkihPostMdx from './posts__016-tonkih-post.mdx.json' assert { type: 'json' }
 import posts__017AgapovMaksimPostMdx from './posts__017-agapov-maksim-post.mdx.json' assert { type: 'json' }
-import posts__018RyabovMaksimPostMdx from './posts__018-ryabov-maksim-post.mdx.json' assert { type: 'json' }
+import posts__018DolzhenkoKirillMdx from './posts__018-dolzhenko-kirill.mdx.json' assert { type: 'json' }
 import posts__019DyblenkoArtyomMdx from './posts__019-dyblenko-artyom.mdx.json' assert { type: 'json' }
-import posts__020ShikinAlexanderMdx from './posts__020-shikin-alexander.mdx.json' assert { type: 'json' }
-import posts__021KulnevKonstantnMdx from './posts__021-kulnev-konstantn.mdx.json' assert { type: 'json' }
-import posts__022DolzhenkoKirillMdx from './posts__022-dolzhenko-kirill.mdx.json' assert { type: 'json' }
-import posts__023KolesnikovIvanMdx from './posts__023-kolesnikov-ivan.mdx.json' assert { type: 'json' }
-import posts__024KartashovIvanMdx from './posts__024-kartashov-ivan.mdx.json' assert { type: 'json' }
+import posts__020KartashovIvanMdx from './posts__020-kartashov-ivan.mdx.json' assert { type: 'json' }
+import posts__021KartovetsDariaMdx from './posts__021-kartovets-daria.mdx.json' assert { type: 'json' }
+import posts__022KolesnikovIvanMdx from './posts__022-kolesnikov-ivan.mdx.json' assert { type: 'json' }
+import posts__023KulnevKonstantnMdx from './posts__023-kulnev-konstantn.mdx.json' assert { type: 'json' }
+import posts__024RyabovMaksimPostMdx from './posts__024-ryabov-maksim-post.mdx.json' assert { type: 'json' }
 import posts__025TrufanovaAnastasiaMdx from './posts__025-trufanova-anastasia.mdx.json' assert { type: 'json' }
-import posts__026KositsynIvanMdx from './posts__026-kositsyn-ivan.mdx.json' assert { type: 'json' }
-import posts__027TymchukDenisMdx from './posts__027-tymchuk-denis.mdx.json' assert { type: 'json' }
-import posts__028KhatuntsevaAlexandraMdx from './posts__028-khatuntseva-alexandra.mdx.json' assert { type: 'json' }
-import posts__029KartovetsDariaMdx from './posts__029-kartovets-daria.mdx.json' assert { type: 'json' }
-import posts__030DochkinaPolinaMdx from './posts__030-dochkina-polina.mdx.json' assert { type: 'json' }
-import posts__031IvanovNikitaMdx from './posts__031-ivanov-nikita.mdx.json' assert { type: 'json' }
+import posts__026TymchukDenisMdx from './posts__026-tymchuk-denis.mdx.json' assert { type: 'json' }
+import posts__027KhatuntsevaAlexandraMdx from './posts__027-khatuntseva-alexandra.mdx.json' assert { type: 'json' }
+import posts__028ShikinAlexanderMdx from './posts__028-shikin-alexander.mdx.json' assert { type: 'json' }
+import posts__029DochkinaPolinaMdx from './posts__029-dochkina-polina.mdx.json' assert { type: 'json' }
+import posts__030IvanovNikitaMdx from './posts__030-ivanov-nikita.mdx.json' assert { type: 'json' }
+import posts__031KositsynIvanMdx from './posts__031-kositsyn-ivan.mdx.json' assert { type: 'json' }
 import posts__032YakovlevArtyomMdx from './posts__032-yakovlev-artyom.mdx.json' assert { type: 'json' }
 import posts__033AgapovDenisMdx from './posts__033-agapov-denis.mdx.json' assert { type: 'json' }
 import posts__034KatarzhnovMikhalMdx from './posts__034-katarzhnov-mikhal.mdx.json' assert { type: 'json' }
 
-export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018RyabovMaksimPostMdx, posts__019DyblenkoArtyomMdx, posts__020ShikinAlexanderMdx, posts__021KulnevKonstantnMdx, posts__022DolzhenkoKirillMdx, posts__023KolesnikovIvanMdx, posts__024KartashovIvanMdx, posts__025TrufanovaAnastasiaMdx, posts__026KositsynIvanMdx, posts__027TymchukDenisMdx, posts__028KhatuntsevaAlexandraMdx, posts__029KartovetsDariaMdx, posts__030DochkinaPolinaMdx, posts__031IvanovNikitaMdx, posts__032YakovlevArtyomMdx, posts__033AgapovDenisMdx, posts__034KatarzhnovMikhalMdx]
+export const allPosts = [posts__001VeloliderSponsorMdx, posts__002VpepSponsorMdx, posts__003TransInformSponsorMdx, posts__004SpecialCitySponsorMdx, posts__005AlfaBankSponsorMdx, posts__006AgapovOlegMdx, posts__007KravchenkoVictoriaMdx, posts__008ProtocolsMdx, posts__009ClassScheduleMdx, posts__010BoroninaValeriaMdx, posts__011ZhogloEfimMdx, posts__012FrolovaNataliaMdx, posts__013PopovAntonPostMdx, posts__014VeterPostMdx, posts__015AntikPostMdx, posts__016TonkihPostMdx, posts__017AgapovMaksimPostMdx, posts__018DolzhenkoKirillMdx, posts__019DyblenkoArtyomMdx, posts__020KartashovIvanMdx, posts__021KartovetsDariaMdx, posts__022KolesnikovIvanMdx, posts__023KulnevKonstantnMdx, posts__024RyabovMaksimPostMdx, posts__025TrufanovaAnastasiaMdx, posts__026TymchukDenisMdx, posts__027KhatuntsevaAlexandraMdx, posts__028ShikinAlexanderMdx, posts__029DochkinaPolinaMdx, posts__030IvanovNikitaMdx, posts__031KositsynIvanMdx, posts__032YakovlevArtyomMdx, posts__033AgapovDenisMdx, posts__034KatarzhnovMikhalMdx]

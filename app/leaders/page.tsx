@@ -63,24 +63,10 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/dochkina-polina" className="a-reset focus-default">
-            <div className="mt-10">
-              <Image src={Dochkina} className='rounded-[20px] mb-5' alt={'person'} />
-              <p>Дочкина Полина</p>
-            </div>
-          </Link>
-
           <Link href="/blog/dyblenko-artyom" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={Diblenko} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Дыбленко Артём</p>
-            </div>
-          </Link>
-
-          <Link href="/blog/ivanov-nikita" className="a-reset focus-default">
-            <div className="mt-10">
-              <Image src={Ivanov} className='rounded-[20px] mb-5' alt={'person'} />
-              <p>Иванов Никита</p>
             </div>
           </Link>
 
@@ -105,52 +91,66 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/kositsyn-ivan" className="a-reset focus-default">
-            <div className="mt-10">
-              <Image src={Kositsyn} className='rounded-[20px] mb-5' alt={'person'} />
-              <p>Косицин Иван</p>
-            </div>
-          </Link>
-
           <Link href="/blog/kulnev-konstantn" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={Kulnev} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Кульнев Константин</p>
             </div>
           </Link>
 
           <Link href="/blog/ryabov-maksim-post" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Ryabov} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Рябов Максим</p>
             </div>
           </Link>
 
           <Link href="/blog/trufanova-anastasia" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={Trufanova} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Труфанова Анастасия</p>
             </div>
           </Link>
 
           <Link href="/blog/tymchuk-denis" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Tymchuk} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Тымчук Денис</p>
             </div>
           </Link>
 
           <Link href="/blog/khatuntseva-alexandra" className="a-reset focus-default">
-            <div >
+            <div className="mt-10">
               <Image src={Hatunceva} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Хатунцева Александра</p>
             </div>
           </Link>
 
           <Link href="/blog/shikin-alexander" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Shikin} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Шикин Александр</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/dochkina-polina" className="a-reset focus-default">
+            <div className="mt-10">
+              <Image src={Dochkina} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Дочкина Полина</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/ivanov-nikita" className="a-reset focus-default">
+            <div>
+              <Image src={Ivanov} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Иванов Никита</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/kositsyn-ivan" className="a-reset focus-default">
+            <div className="mt-10">
+              <Image src={Kositsyn} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Косицин Иван</p>
             </div>
           </Link>
 
