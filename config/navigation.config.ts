@@ -11,7 +11,7 @@ export const categories = [
 ]
 
 export const legals = [
-  // { name: 'Transparency', href: '/transparency' },
+  { name: 'Обработка персональных данных', href: '/transparency' },
   { name: 'Создание сайтов', href: '/imprint' },
 ];
 

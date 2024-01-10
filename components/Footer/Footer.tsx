@@ -71,7 +71,7 @@ export const Footer = () => {
               </nav>
             </div>
             <div className="flex flex-col gap-3">
-            <span className="font-medium">Разработка</span>
+            <span className="font-medium">Прочее</span>
             <nav className="flex flex-col gap-3">
               {legals.map(({ name, href }) => {
                 return (
