@@ -211,7 +211,6 @@ const Project = ({ params }: { params: { slug: string } }) => {
           </aside>
         )}
       </div>
-      
         {project.responsibilities?.length && (
           <div className="mx-auto grid w-full max-w-5xl pt-10">
             <Tagline>КОММЕНТАРИИ ПОСЛЕ ФИЛЬМА</Tagline>
