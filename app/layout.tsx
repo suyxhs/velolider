@@ -27,8 +27,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     >
       <head>
         <PlausibleAnalytics domain="velolider" />
-        {/* <meta name="og:image" /> is generated. */}
-        {/* <meta property="og:image:alt" content="Konstantin Münster" /> */}
+        <meta name="og:image" /> is generated.
+        <meta property="og:image:alt" content="Команда ВелоЛидер" />
         {/* <meta name="twitter:image" /> is generated. */}
         {/* <meta property="og:image:alt" content="Konstantin Münster" /> */}
         <link
@@ -81,7 +81,10 @@ export const metadata: Metadata = {
     'Воронеж',
     'Воронежская область',
     'Команда велолидер',
-    'Voronezh cycling'
+    'Voronezh cycling',
+    'Школа',
+    'МБУДО СШОР 8',
+    'Школа олимпийского резерва',
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {
