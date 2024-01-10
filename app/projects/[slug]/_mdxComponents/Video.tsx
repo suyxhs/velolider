@@ -88,8 +88,8 @@ export const Video = ({ src, alt, caption, thumbnail }: VideoProps) => {
           caption ? 'mb-8 mt-6 md:mb-16 md:mt-12' : 'my-6 md:my-12'
         )}
       >
-        <div className="block md:hidden">{VideoPlayer}</div>
-        <div className="hidden md:block">{Thumbnail}</div>
+        {/* <div className="block md:hidden">{VideoPlayer}</div> */}
+        <div className="block">{Thumbnail}</div>
         {caption && (
           <div className="absolute -bottom-8 w-full text-center text-sm opacity-50">
             {caption}

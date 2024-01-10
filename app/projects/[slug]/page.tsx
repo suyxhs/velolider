@@ -18,6 +18,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks';
 
 
 
+
 const getProjectBySlug = (slug: string) => {
   const project = allProjects.find(project => project.slug === slug);
   if (!project) throw new Error(`Project not found for slug: ${slug}`);
