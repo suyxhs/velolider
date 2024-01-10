@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 
 import { legals, navigation, socials } from '@/config/navigation.config';
@@ -6,12 +8,13 @@ import Script from "next/script";
 import Map from "@/components/Map/Map"
 import { ClipboardWithTooltip } from '../ui/Clipboard';
 import { DrawerPlacement } from '../DrawerPlacement/DrawerPlacement';
+import { Typography } from "@material-tailwind/react";
 
 const year = new Date().getFullYear();
 
 export const Footer = () => {
   return (
-      <footer className="border-t-2 border-transparent bg-black dark:border-white/50 rounded-t-[20px]">
+      <footer className="border-t-2 border-transparent bg-black dark:border-white/50 rounded-t-[20px] w-full p-8">
         <div className="px-container mx-auto flex max-w-container flex-col-reverse items-start justify-between gap-x-12 gap-y-20 pb-20 pt-16 md:flex-row">
           <div className="flex flex-col">
             {/* <Logo iconColor="white" textHidden /> */}
@@ -85,6 +88,10 @@ export const Footer = () => {
           </div>
           </div>
         </div>
+        <hr className="my-8 border-blue-gray-50" />
+      <Typography color="white" className="text-center  d-flex items-center font-normal">
+        <Link href="https://suyxhs-portfolio.vercel.app">&copy; Создано и поддерживается «suyxhs»</Link>
+      </Typography>
       </footer>
   );
 };
