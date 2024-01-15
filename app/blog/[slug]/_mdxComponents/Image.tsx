@@ -10,7 +10,7 @@ type MdxImageProps = {
 
 export const MdxImage: FC<MdxImageProps> = ({ src, alt, caption }) => {
   return (
-    <div className="not-prose my-12">
+    <div className="not-prose my-12 md:mr-[30px]">
       <NextImage
         src={src}
         alt={alt}
