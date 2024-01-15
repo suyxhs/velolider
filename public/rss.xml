@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ВелоЛидер</title>
+        <link>https://velolider</link>
+        <description>All about product development and freelancing.</description>
+        <lastBuildDate>Mon, 15 Jan 2024 10:54:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <image>
+            <title>ВелоЛидер</title>
+            <url>https://velolider/favicon.ico</url>
+            <link>https://velolider</link>
+        </image>
+        <copyright>ВелоЛидер 2024</copyright>
+        <item>
+            <title><![CDATA[ВелоЛидер]]></title>
+            <link>https://velolider/blog/velolider-sponsor</link>
+            <guid>https://velolider/blog/velolider-sponsor</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Лидер по ассортименту наличия велосипедов и велозапчастей]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/7.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ВПЭП]]></title>
+            <link>https://velolider/blog/vpep-sponsor</link>
+            <guid>https://velolider/blog/vpep-sponsor</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[ЗАО «Воронежпромэнергопроект» - комплексная проектная организация, имеющая всех необходимых специалистов, выполняющая функции генерального проектировщика.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/5.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Транс Информ]]></title>
+            <link>https://velolider/blog/trans-inform-sponsor</link>
+            <guid>https://velolider/blog/trans-inform-sponsor</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Управленческие решения в транспортной логистике]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/2.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Спец-Сити]]></title>
+            <link>https://velolider/blog/special-city-sponsor</link>
+            <guid>https://velolider/blog/special-city-sponsor</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[ООО «Спец сити» оказывает услуги по аренде спецтехники в г. Воронеже и Черноземье с 2012 года.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/1.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Альфа-Банк]]></title>
+            <link>https://velolider/blog/alfa-bank-sponsor</link>
+            <guid>https://velolider/blog/alfa-bank-sponsor</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Полный спектр банковских услуг для физических и юридических лиц: кредитование, вклады и депозиты, ведение счетов. Тарифы. Онлайн-банкинг.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/3.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Агапов Олег Иванович]]></title>
+            <link>https://velolider/blog/agapov-oleg</link>
+            <guid>https://velolider/blog/agapov-oleg</guid>
+            <pubDate>Tue, 07 Mar 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Главный тренер сборной Воронежской области по велоспорту]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/agapovLogo.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Кравченко Виктория Игоревна]]></title>
+            <link>https://velolider/blog/kravchenko-victoria</link>
+            <guid>https://velolider/blog/kravchenko-victoria</guid>
+            <pubDate>Tue, 07 Mar 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[В прошлом спортсмен команды ВелоЛидер, в настоящем тренер-стажёр группы начальной подготовки]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kravchenko/logo.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Протоколы]]></title>
+            <link>https://velolider/blog/protocols</link>
+            <guid>https://velolider/blog/protocols</guid>
+            <pubDate>Tue, 07 Mar 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Ознакомьтесь с протоколами]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/protocol.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Расписание занятий на базе]]></title>
+            <link>https://velolider/blog/class-schedule</link>
+            <guid>https://velolider/blog/class-schedule</guid>
+            <pubDate>Tue, 07 Mar 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав, стажёры и новички]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/schedule.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Боронина Валерия]]></title>
+            <link>https://velolider/blog/boronina-valeria</link>
+            <guid>https://velolider/blog/boronina-valeria</guid>
+            <pubDate>Mon, 01 May 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Ведущая спортсменка Воронежской области]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/logoBoronina.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Жогло Ефим]]></title>
+            <link>https://velolider/blog/zhoglo-efim</link>
+            <guid>https://velolider/blog/zhoglo-efim</guid>
+            <pubDate>Mon, 01 May 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Перспективный молодой гонщик]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/jogloLogo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Фролова (Студеникина) Наталья]]></title>
+            <link>https://velolider/blog/frolova-natalia</link>
+            <guid>https://velolider/blog/frolova-natalia</guid>
+            <pubDate>Fri, 24 Nov 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Воронежская спортсменка победила в первенстве Европы по велоспорту на треке]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/frolova.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Попов Антон]]></title>
+            <link>https://velolider/blog/popov-anton-post</link>
+            <guid>https://velolider/blog/popov-anton-post</guid>
+            <pubDate>Sat, 25 Nov 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Антон Попов — профессиональный российский шоссейный велогонщик.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/popov.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[VETER]]></title>
+            <link>https://velolider/blog/veter-post</link>
+            <guid>https://velolider/blog/veter-post</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Экипировка для велоспорта и триатлона. Индивидуальная форма для команд и клубов. Сделано в России из лучших итальянских материалов.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/4.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[ANTIK]]></title>
+            <link>https://velolider/blog/antik-post</link>
+            <guid>https://velolider/blog/antik-post</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Завод тротуарной плитки «ANTIK»— динамично развивающееся предприятие, которое предлагает широкий ассортимент собственной продукции.]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/sponsors/8.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Тонких Илья Романович]]></title>
+            <link>https://velolider/blog/tonkih-post</link>
+            <guid>https://velolider/blog/tonkih-post</guid>
+            <pubDate>Mon, 01 May 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Молодой тренер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/adopting-a-no-code-mindset/t1.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Агапов Максим]]></title>
+            <link>https://velolider/blog/agapov-maksim-post</link>
+            <guid>https://velolider/blog/agapov-maksim-post</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/agapov/logo3.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Долженко Кирилл]]></title>
+            <link>https://velolider/blog/dolzhenko-kirill</link>
+            <guid>https://velolider/blog/dolzhenko-kirill</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/dolzhenko/logo3.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Дыбленко Артём]]></title>
+            <link>https://velolider/blog/dyblenko-artyom</link>
+            <guid>https://velolider/blog/dyblenko-artyom</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/dyblenko/logo3.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Карташов Иван]]></title>
+            <link>https://velolider/blog/kartashov-ivan</link>
+            <guid>https://velolider/blog/kartashov-ivan</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kartashov/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Картовец Дарья]]></title>
+            <link>https://velolider/blog/kartovets-daria</link>
+            <guid>https://velolider/blog/kartovets-daria</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kartovets/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Колесников Иван]]></title>
+            <link>https://velolider/blog/kolesnikov-ivan</link>
+            <guid>https://velolider/blog/kolesnikov-ivan</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kolesnikov/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Кульнев Константин]]></title>
+            <link>https://velolider/blog/kulnev-konstantn</link>
+            <guid>https://velolider/blog/kulnev-konstantn</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kulnev/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Рябов Максим]]></title>
+            <link>https://velolider/blog/ryabov-maksim-post</link>
+            <guid>https://velolider/blog/ryabov-maksim-post</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/ryabov/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Труфанова Анастасия]]></title>
+            <link>https://velolider/blog/trufanova-anastasia</link>
+            <guid>https://velolider/blog/trufanova-anastasia</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/trufanova/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Тымчук Денис]]></title>
+            <link>https://velolider/blog/tymchuk-denis</link>
+            <guid>https://velolider/blog/tymchuk-denis</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/tymchuk/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Хатунцева Александра]]></title>
+            <link>https://velolider/blog/khatuntseva-alexandra</link>
+            <guid>https://velolider/blog/khatuntseva-alexandra</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/khatuntseva/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Шикин Александр]]></title>
+            <link>https://velolider/blog/shikin-alexander</link>
+            <guid>https://velolider/blog/shikin-alexander</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/shikin/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Дочкина Полина]]></title>
+            <link>https://velolider/blog/dochkina-polina</link>
+            <guid>https://velolider/blog/dochkina-polina</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/dochkina/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Иванов Никита]]></title>
+            <link>https://velolider/blog/ivanov-nikita</link>
+            <guid>https://velolider/blog/ivanov-nikita</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/ivanov/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Косицин Иван]]></title>
+            <link>https://velolider/blog/kositsyn-ivan</link>
+            <guid>https://velolider/blog/kositsyn-ivan</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/kositsyn/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Яковлев Артём]]></title>
+            <link>https://velolider/blog/yakovlev-artyom</link>
+            <guid>https://velolider/blog/yakovlev-artyom</guid>
+            <pubDate>Fri, 23 Sep 2022 21:00:00 GMT</pubDate>
+            <description><![CDATA[Основной состав команды ВелоЛидер]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/yakovlev/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Агапов Денис Олегович]]></title>
+            <link>https://velolider/blog/agapov-denis</link>
+            <guid>https://velolider/blog/agapov-denis</guid>
+            <pubDate>Tue, 07 Mar 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Тренер средней группы]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/agapovDenis/logo.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Катаржнов Михаил]]></title>
+            <link>https://velolider/blog/katarzhnov-mikhal</link>
+            <guid>https://velolider/blog/katarzhnov-mikhal</guid>
+            <pubDate>Mon, 01 May 2023 21:00:00 GMT</pubDate>
+            <description><![CDATA[Перспективный молодой гонщик]]></description>
+            <author>velolider@gmail.com (ВелоЛидер)</author>
+            <enclosure url="https://velolider/images/posts/katarzhnov/logo2.jpg" length="0" type="image/jpg"/>
+        </item>
+    </channel>
+</rss>

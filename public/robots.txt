@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://velolider
+
+# Sitemaps
+Sitemap: https://velolider/sitemap.xml
