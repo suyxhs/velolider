@@ -8,6 +8,7 @@ import { MdxBlockquote } from './Blockquote';
 import { MdxCodeInline } from './CodeInline';
 import { MdxCodeBlock } from './CodeBlock';
 import { MdxFormerRacers } from './FormerRacers';
+import { MdxCardLeaders } from './CardLeaders';
 
 
 export const mdxComponents: MDXComponents = {
@@ -22,4 +23,5 @@ export const mdxComponents: MDXComponents = {
   Image: MdxImage,
   LearningPath: MdxLearningPath,
   TargetAudience: MdxTargetAudience,
+  CardLeaders: MdxCardLeaders,
 };

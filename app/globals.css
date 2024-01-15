@@ -30,7 +30,7 @@
     @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-black;
   }
   .prose-custom {
-    @apply prose prose-lg prose-violet dark:prose-invert prose-a:no-underline;
+    @apply prose max-w-none prose-lg prose-violet dark:prose-invert prose-a:no-underline;
   }
 }
 

@@ -27,7 +27,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
 
   return (
     <main className="px-container pb-24">
-      <article className="relative mx-auto max-w-2xl pb-16 pt-6 md:pb-32 md:pt-12">
+      <article className="relative mx-auto max-w-4xl pb-16 pt-6 md:pb-32 md:pt-12">
         <Tooltip.Root placement="top">
           <Tooltip.Trigger asChild>
             <Link
@@ -72,7 +72,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
               {formatDate(post.publishedAt, 'dd.LL.yyyy')}
             </time>
           </div>
-          {post.cover && (
+          {/* {post.cover && (
             <div className="my-8">
               <NextImage
                 src={post.cover.src}
@@ -88,7 +88,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
                 />
               )}
             </div>
-          )}
+          )} */}
         </div>
         <div className="prose-custom">
           <MDXContent components={mdxComponents} />

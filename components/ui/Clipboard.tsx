@@ -10,7 +10,7 @@ export function ClipboardWithTooltip() {
   const [copied, setCopied] = React.useState(false);
  
   return (
-    <Tooltip content={copied ? "Готово" : "Скопировать"}>
+    <Tooltip content={copied ? "Скопировано в буфер обмена" : "Скопировать"}>
       <Button
         onMouseLeave={() => setCopied(false)}
         onClick={() => {
