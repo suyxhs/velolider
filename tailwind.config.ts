@@ -64,7 +64,8 @@ module.exports = withMT({
         backgroundImage: {
           'hero': "url('/bg-hero2.jpg')",
           'hero-pattern': "url('/bg-hero2.jpg')",
-          'popup': "url('/images/user/postPeople/popov9.jpg')"
+          'popup': "url('/images/user/postPeople/popov9.jpg')",
+          'banner': "url('/images/banner/bg1.jpg')",
         },
         animation: {
           'scrolling-container': 'scrolling-container 30000ms linear infinite',

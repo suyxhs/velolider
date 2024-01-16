@@ -6,10 +6,10 @@ import Image, { ImageProps } from 'next/image';
 import { Button } from '@/components/Button';
 
 
-import Agapov from '/public/images/posts/lider/staffLogoA.jpg'
-import Kravchenko from '/public/images/reviews/kravchenko.jpg'
-import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
-import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
+import Agapov from '/public/images/posts/testStaffLogo/1.jpg'
+import Kravchenko from '/public/images/posts/testStaffLogo/3.jpg'
+import Tonkih from 'public/images/posts/testStaffLogo/4.jpg'
+import AgapovDenis from '/public/images/posts/testStaffLogo/2.jpg'
 
 
 export default function Staff() {
@@ -34,15 +34,15 @@ export default function Staff() {
                 </div>
                 </Link>
 
-                <Link href="/blog/tonkih-post">
+                <Link href="/blog/tonkih-post" className="a-reset focus-default">
                 <div className="mt-10">
                     <Image src={Tonkih} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Тонких Илья</p>
-                    <span className='text-[0.8em] opacity-80'>Механик</span>
+                    <span className='text-[0.8em] opacity-80'>Тренер и механик</span>
                 </div>
                 </Link>
 
-                <Link href="/blog/agapov-denis">
+                <Link href="/blog/agapov-denis" className="a-reset focus-default">
                 <div>
                     <Image src={AgapovDenis} className='rounded-[20px] mb-5' alt={'person'} />
                     <p className='text-[15px] font-bold '>Агапов Денис</p>
@@ -50,7 +50,7 @@ export default function Staff() {
                 </div>
                 </Link>
             </div>
-            <Button as="a" href='/blog' className="bg-green-btn text-black mt-10">
+            <Button as="a" href='/leaders#timelines' className="bg-green-btn text-black mt-10">
                 Весь персонал
             </Button>
         </div>

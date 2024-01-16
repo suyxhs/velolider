@@ -30,6 +30,7 @@ import Agapov from '/public/images/posts/lider/agapovLogo.jpg'
 import Kravchenko from '/public/images/reviews/kravchenko.jpg'
 import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
 import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
+import { GridContainer } from '@/components/grid';
 
 
 
@@ -37,12 +38,24 @@ import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
 const LeadersPage = () => {
   return (
     <main className="px-container mx-auto max-w-container pb-24">
-      <Hero
+      {/* <Hero
         className="py-16 md:py-20 "
         minHeight={false}
         title={HeroTitle}
         description="Основная информация про спортивную школу"
-      />
+      /> */}
+              <section className="relative rounded-3xl w-full pt-16 overflow-hidden bg-hero bg-top">
+            <GridContainer className="flex flex-col items-center">
+                <div className="w-full max-w-text-hero text-center">
+                    <h3 className="text-xl font-medium text-white mb-4">Основная информация про спортивную школу</h3>
+                    <h1 className="text-white text-3xl/normal md:text-5xl/normal font-semibold pb-16">Наши спортсмены</h1>
+                    <div className="flex items-center justify-center gap-10">
+                        
+                    </div>
+                </div>
+                
+            </GridContainer>
+        </section>
 
       <div className="mb-24">
 
@@ -176,7 +189,7 @@ const LeadersPage = () => {
       </div>
 
 
-      <div className="mb-24">
+      <div className="mb-24" id='timelines'>
 
         <Hero
           className="pb-16 pt-9 md:pb-20 md:pt-1"
