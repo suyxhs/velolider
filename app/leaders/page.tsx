@@ -140,7 +140,7 @@ const LeadersPage = () => {
         </div>
 
         <h3 className="font-accent text-3xl font-medium md:text-4xl py-10 md:pb-10">
-            Состав стажёров основного состава
+            Стажёры основного состава
           </h3>
 
         <div className='grid md:grid-cols-4 grid-cols-2 gap-4'>
