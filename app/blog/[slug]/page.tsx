@@ -55,6 +55,19 @@ const Post = ({ params }: { params: { slug: string } }) => {
             {post.title}
           </h1>
           <p className="text-lg">{post.summary}</p>
+          {post.externals?.Medium && (
+                  <span className="block text-sm opacity-50">
+                    Профиль и все результаты на RUS.BIKE{' '}
+                    <a
+                      href={post.externals.Medium}
+                      className="a-reset underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {post.externals.Medium.substring(8)}
+                    </a>
+                  </span>
+                )}
           <div className="mt-8 flex items-center justify-start gap-6">
             <div className="flex items-center gap-2">
               <Image

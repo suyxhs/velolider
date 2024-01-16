@@ -23,7 +23,7 @@ import Kartovets from '/public/images/posts/kartovets/logo2.jpg'
 import Khatuntseva from '/public/images/gallery/15.jpg'
 import Dochkina from '/public/images/posts/dochkina/logo2.jpg'
 import Ivanov from '/public/images/posts/ivanov/logo2.jpg'
-import Yakovlev from '/public/images/gallery/18.jpg'
+import Yakovlev from '/public/images/posts/yakovlev/logo2.jpg'
 
 
 import Agapov from '/public/images/gallery/agapov.jpg'
@@ -45,6 +45,10 @@ const LeadersPage = () => {
       />
 
       <div className="mb-24">
+
+      <h3 className="font-accent text-3xl font-medium md:text-4xl py-10 md:py-10">
+            Основной состав
+          </h3>
 
         <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
 
@@ -133,7 +137,14 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/dochkina-polina" className="a-reset focus-default">
+        </div>
+
+        <h3 className="font-accent text-3xl font-medium md:text-4xl pb-10 md:pb-10 pt-15">
+            Состав стажёров основного состава
+          </h3>
+
+        <div className='grid md:grid-cols-4 grid-cols-2 gap-4'>
+        <Link href="/blog/dochkina-polina" className="a-reset focus-default">
             <div className="mt-10">
               <Image src={Dochkina} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Дочкина Полина</p>
