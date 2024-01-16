@@ -26,10 +26,10 @@ import Ivanov from '/public/images/posts/ivanov/logo2.jpg'
 import Yakovlev from '/public/images/posts/yakovlev/logo2.jpg'
 
 
-import Agapov from '/public/images/gallery/agapov.jpg'
+import Agapov from '/public/images/posts/lider/agapovLogo.jpg'
 import Kravchenko from '/public/images/reviews/kravchenko.jpg'
 import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
-import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo.jpg'
+import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
 
 
 
@@ -38,7 +38,7 @@ const LeadersPage = () => {
   return (
     <main className="px-container mx-auto max-w-container pb-24">
       <Hero
-        className="py-16 md:py-20"
+        className="py-16 md:py-20 "
         minHeight={false}
         title={HeroTitle}
         description="Основная информация про спортивную школу"
@@ -139,7 +139,7 @@ const LeadersPage = () => {
 
         </div>
 
-        <h3 className="font-accent text-3xl font-medium md:text-4xl pb-10 md:pb-10 pt-15">
+        <h3 className="font-accent text-3xl font-medium md:text-4xl py-10 md:pb-10">
             Состав стажёров основного состава
           </h3>
 
@@ -208,7 +208,7 @@ const LeadersPage = () => {
             <div className="mt-10">
               <Image src={Tonkih} className='rounded-[20px] mb-5' alt={'person'} />
               <p className='text-[15px] font-bold '>Тонких Илья</p>
-              <span className='text-[0.8em] opacity-80'>Механик</span>
+              <span className='text-[0.8em] opacity-80'>Тренер и механик</span>
             </div>
           </Link>
 
