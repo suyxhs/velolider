@@ -26,10 +26,10 @@ import Ivanov from '/public/images/posts/ivanov/logo2.jpg'
 import Yakovlev from '/public/images/posts/yakovlev/logo2.jpg'
 
 
-import Agapov from '/public/images/posts/lider/agapovLogo.jpg'
-import Kravchenko from '/public/images/reviews/kravchenko.jpg'
-import Tonkih from 'public/images/posts/adopting-a-no-code-mindset/t9.jpg'
-import AgapovDenis from '/public/images/posts/agapovDenis/staffLogo2.jpg'
+import Agapov from '/public/images/posts/testStaffLogo/1.jpg'
+import Kravchenko from '/public/images/posts/testStaffLogo/3.jpg'
+import Tonkih from 'public/images/posts/testStaffLogo/4.jpg'
+import AgapovDenis from '/public/images/posts/testStaffLogo/2.jpg'
 import { GridContainer } from '@/components/grid';
 
 

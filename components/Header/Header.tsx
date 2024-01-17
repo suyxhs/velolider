@@ -18,8 +18,8 @@ import { MenuDefault } from '../ui/MenuDefault';
 
 export const Header = () => {
   return (
-    <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
-      <Link href="/" className="a-reset focus-default rounded-md flex items-center">
+      <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
+      <Link href="/" className="flex items-center ">
         {/* <Logo textHidden /> */}
         {/* <span className='font-medium text-sm'>команда</span> */}
         <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
