@@ -14,11 +14,15 @@ import { ScrollableRelativeToParent } from '../Helpers';
 import { SlideOver } from '../Slideover';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { MenuDefault } from '../ui/MenuDefault';
+import { NotificationsMenu } from '../ui/ClockIcon'
 
 
 export const Header = () => {
   return (
       <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
+        <div className='block md:hidden'>
+          <NotificationsMenu />
+        </div>
       <Link href="/" className="flex items-center ">
         {/* <Logo textHidden /> */}
         {/* <span className='font-medium text-sm'>команда</span> */}

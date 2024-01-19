@@ -48,7 +48,7 @@ export const CompaniesSection = () => {
           })}
         </div> */}
         <div
-          className="flex w-[400%] animate-scrolling-container sm:w-[100%] "
+          className="flex w-[400%] animate-slide sm:w-[100%] "
           aria-hidden={true}
         >
           {[...companies, ...companies].map((company, key) => {
