@@ -133,7 +133,7 @@ const companies = [
   },
   {
     name: 'ВелоЛидер',
-    logo: '/images/posts/sponsors/velolider.webp',
+    logo: '/images/posts/sponsors/velolider2.png',
     url: 'https://www.velolider-vrn.ru',
     width: 190,
     height: 100,

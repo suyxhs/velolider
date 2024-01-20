@@ -19,7 +19,7 @@ export function DefaultAccordion() {
             Частые вопросы
           </h2>
         </div>
-      <div className="px-container mx-auto max-w-container my-12 "> 
+      <div className="px-container mx-auto max-w-container my-12"> 
       <Accordion open={open === 1} className="mb-2 rounded-lg border border-blue-gray-100 px-4">
         <AccordionHeader
           onClick={() => handleOpen(1)}
@@ -29,7 +29,7 @@ export function DefaultAccordion() {
         >
           Где проходят тренировки?
         </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
+        <AccordionBody className="pt-0 text-base font-normal dark:text-white">
           У основного состава тренировки проходят на шоссе, также наша команда специализируется на треке. <br />
           У резервного состава тренировки проходят на шоссе, а также на байке в лестной местности. <br />
           Новички тренируются на стадионах, в парках и в лестной местности.
@@ -44,7 +44,7 @@ export function DefaultAccordion() {
         >
           С какого возраста принимают в спортивную школу?
         </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
+        <AccordionBody className="pt-0 text-base font-normal dark:text-white">
           Набор в школу олимпийского резерва начинается с 7 лет.
         </AccordionBody>
       </Accordion>
@@ -57,7 +57,7 @@ export function DefaultAccordion() {
         >
           Какие документы требуются?
         </AccordionHeader>
-        <AccordionBody className="pt-0 text-base font-normal">
+        <AccordionBody className="pt-0 text-base font-normal dark:text-white">
         Документы, необходимые для зачисления в группу начальной подготовки: <br />
         1. Свидетельства о рождении (ксерокопия) <br />
         2. СНИЛС (ксерокопия) <br />

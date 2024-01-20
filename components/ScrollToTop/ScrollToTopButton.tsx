@@ -40,7 +40,7 @@ export const ScrollToTopButton = () => {
           'fixed bottom-4 right-4 rounded-full bg-green-btn p-2 outline-none transition-opacity duration-200 z-40',
         )}
       >
-        <ChevronUp aria-hidden="true" />
+        <ChevronUp aria-hidden="true" className="dark:text-black" />
       </button>
     </div>
   )

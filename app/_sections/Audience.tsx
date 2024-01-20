@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useState } from 'react';
 import clsx from 'clsx';
+import Image from 'next/image';
 
 export const AudienceSection = () => {
   const titles = audiences.map(audience => audience.title);
@@ -10,10 +12,10 @@ export const AudienceSection = () => {
     <div className="relative mb-16 md:mb-32">
       <div className="px-container mx-auto max-w-container">
         <h2 className="mb-5 mt-4 text-center font-accent text-4xl font-medium md:text-5xl">
-          Where my work has the most impact.
+          Как менялся наш транспорт
         </h2>
         <div className="my-12 grid md:my-24 md:grid-cols-[1fr_2fr] lg:grid-cols-[1fr_1.5fr]">
-          <div className="mb-6 flex flex-row gap-8 md:mb-0 md:flex-col md:px-6 lg:px-12">
+          <div className="mb-6 flex flex-row gap-8 md:mb-0 md:flex-col md:px-6 lg:px-12 overflow-x-auto py-4 pl-1">
             {titles.map((title, i) => {
               return (
                 <button
@@ -38,6 +40,7 @@ export const AudienceSection = () => {
             <p className="text-lg opacity-90">
               {audiences[active].description}
             </p>
+            <Image src={audiences[active].img} width={500} height={500} className='rounded-[20px] mt-8' alt='att'/>
           </div>
         </div>
       </div>
@@ -47,17 +50,43 @@ export const AudienceSection = () => {
 
 const audiences = [
   {
-    title: 'Startups',
+    title: '2000',
     subtitle:
-      'You see a market opportunity. Now you are in the midst of building the product and staffing a team?',
+      '*Пример текста*',
     description:
-      'In the early days, shipping fast and collecting feedback is key. I help you in executing your vision – without any managerial hassle.',
+      '*Пример текста*',
+      img: "/images/projects/preparingForTheSeason/logo.jpg",
   },
   {
-    title: 'Scale-ups',
+    title: '2020',
     subtitle:
-      'You already validated your core product. Now it is time to listen for user feedback and scale?',
+      '*Пример текста*',
     description:
-      'The more mature your product gets, the more important becomes product discovery. I help you in shipping the right features, built with attention to detail.',
+      '*Пример текста*',
+      img: "/images/posts/schedule.png",
+  },
+  {
+    title: '2020',
+    subtitle:
+      '*Пример текста*',
+    description:
+      '*Пример текста*',
+      img: "/images/posts/schedule.png",
+  },
+  {
+    title: '2020',
+    subtitle:
+      '*Пример текста*',
+    description:
+      '*Пример текста*',
+      img: "/images/posts/schedule.png",
+  },
+  {
+    title: '2020',
+    subtitle:
+      '*Пример текста*',
+    description:
+      '*Пример текста*',
+      img: "/images/posts/testStaffLogo/1.jpg",
   },
 ];
