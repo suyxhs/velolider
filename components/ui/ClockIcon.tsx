@@ -50,7 +50,7 @@ import Link from "next/link";
           </IconButton>
         </MenuHandler>
         <MenuList className="flex flex-col gap-2">
-          <Link href="/projects/preparing-for-the-season">
+          <Link href="/projects/preparing-for-the-season" className="a-reset focus-default">
           <MenuItem className="flex items-center gap-4 py-2 pl-2 pr-8">
             <Avatar
               variant="circular"
@@ -68,7 +68,7 @@ import Link from "next/link";
             </div>
           </MenuItem>
           </Link>
-          <Link href="/blog/class-schedule">
+          <Link href="/blog/class-schedule" className="a-reset focus-default">
           <MenuItem className="flex items-center gap-4 py-2 pl-2 pr-8">
             <Avatar
               variant="circular"
@@ -85,7 +85,7 @@ import Link from "next/link";
             </div>
           </MenuItem>
           </Link>
-          <Link href="/projects/results">
+          <Link href="/projects/results" className="a-reset focus-default">
           <MenuItem className="flex items-center gap-4 py-2 pl-2 pr-8">
             <Avatar
               variant="circular"
