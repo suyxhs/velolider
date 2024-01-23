@@ -15,6 +15,7 @@ import { formatDate } from '@/utils/formatDate';
 
 import { mdxComponents } from './_mdxComponents';
 
+
 const getPostBySlug = (slug: string) => {
   const post = allPosts.find(post => post.slug === slug);
   if (!post) throw new Error(`Post not found for slug: ${slug}`);
@@ -24,6 +25,8 @@ const getPostBySlug = (slug: string) => {
 const Post = ({ params }: { params: { slug: string } }) => {
   const post = getPostBySlug(params.slug);
   const MDXContent = useMDXComponent(post.body.code);
+  const shareUrl = "http://github.com";
+  const title = "GitHub";
 
   return (
     <main className="px-container pb-24">

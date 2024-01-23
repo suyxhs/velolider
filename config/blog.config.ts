@@ -6,7 +6,7 @@ export const CategoryColors: Record<
 > = {
   Элита: 'mint',
   Легионеры: 'mint',
-  Лидеры: 'mint',
+  Воспитанники: 'mint',
   Протоколы: 'violet',
   Персонал: 'sun',
   Прочее: 'gray',
@@ -15,7 +15,7 @@ export const CategoryColors: Record<
 
 export const BLOG_CATEGORIES: {
   title: string;
-  slug: "Элита" | "Легионеры" | "Лидеры" | "Протоколы" | "Персонал" | "Прочее" | "Спонсоры"
+  slug: "Элита" | "Легионеры" | "Воспитанники" | "Протоколы" | "Персонал" | "Прочее" | "Спонсоры"
   description: string;
 }[] = [
   {

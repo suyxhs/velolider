@@ -12,7 +12,7 @@ type LogoProps = {
 };
 
 export const Logo: FC<LogoProps> = props => {
-  const iconSize = props.iconSize ?? 200;
+  const iconSize = props.iconSize ?? 150;
   const iconColor = props.iconColor ?? '#CEAFFA';
 
   const textSize = props.textSize ?? 24;

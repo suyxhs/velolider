@@ -20,7 +20,7 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
   variant = 'default',
 }) => {
   return (
-    <Link
+    <><h3 className="my-1 text-lg font-medium">{post.subtitle}</h3><Link
       href={`/blog/${post.slug}`}
       role="button"
       aria-label={`Read article: ${post.title}`}
@@ -64,12 +64,11 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
                   variant === 'image-vertical'
                     ? 'rounded-t-lg'
                     : 'rounded-t-lg md:!rounded-r-lg md:rounded-t-none'
-                )}
-              />
+                )} />
             )}
           </div>
         )}
       </article>
-    </Link>
+    </Link></>
   );
 };

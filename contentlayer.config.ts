@@ -47,7 +47,7 @@ const Externals = defineNestedType(() => ({
 const POSTS_DIR_NAME = 'posts';
 
 
-const Categories = ['Элита', 'Легионеры', 'Лидеры', 'Протоколы', 'Персонал', 'Прочее', 'Спонсоры'] as const;
+const Categories = ['Элита', 'Легионеры', 'Воспитанники', 'Протоколы', 'Персонал', 'Прочее', 'Спонсоры'] as const;
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
@@ -55,6 +55,7 @@ export const Post = defineDocumentType(() => ({
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
+    subtitle: { type: 'string' },
     publishedAt: { type: 'date', required: true },
     summary: { type: 'string' },
     cover: { type: 'nested', of: Image },

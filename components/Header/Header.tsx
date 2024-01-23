@@ -24,9 +24,9 @@ export const Header = () => {
           <NotificationsMenu />
         </div>
       <Link href="/" className="flex items-center ">
-        {/* <Logo textHidden /> */}
+        <Logo textHidden />
         {/* <span className='font-medium text-sm'>команда</span> */}
-        <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
+        {/* <h2 className='font-semibold text-lg'>ВелоЛидер</h2> */}
       </Link>
       {/* DESKTOP */}
       <div className="hidden md:block">

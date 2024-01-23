@@ -40,7 +40,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             {project.title}{' '}
             <ArrowRight className="stroke-violet/80 transition-all group-hover:translate-x-1 group-hover:stroke-violet" />
           </h3>
-          <span className="text-lg">{project.subtitle}</span>
+          <span>{project.subtitle}</span>
           <div className="my-6 flex max-w-xs flex-wrap gap-2">
             {project.role && <CustomLabel>{project.role}</CustomLabel>}
             {project.space && <CustomLabel>{project.space}</CustomLabel>}

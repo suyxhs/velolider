@@ -14,11 +14,12 @@ export type Post = {
   _raw: Local.RawDocumentData
   type: 'Post'
   title: string
+  subtitle?: string | undefined
   publishedAt: IsoDateTimeString
   summary?: string | undefined
   cover?: Image | undefined
   externals?: Externals | undefined
-  category?: 'Элита' | 'Легионеры' | 'Лидеры' | 'Протоколы' | 'Персонал' | 'Прочее' | 'Спонсоры' | undefined
+  category?: 'Элита' | 'Легионеры' | 'Воспитанники' | 'Протоколы' | 'Персонал' | 'Прочее' | 'Спонсоры' | undefined
   tags?: string[] | undefined
   /** MDX file body */
   body: MDX
