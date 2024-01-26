@@ -21,7 +21,7 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
 }) => {
   return (
     <>
-    {/* <h2 className="my-8 font-accent text-2xl font-medium flex items-center">{post.subtitle}</h2> */}
+    <h2 className="pt-8 font-accent text-2xl font-medium flex items-center">{post.subtitle}</h2>
     <Link
       href={`/blog/${post.slug}`}
       role="button"
