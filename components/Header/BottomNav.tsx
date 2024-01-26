@@ -4,40 +4,38 @@ import React, { useState, useEffect } from "react";
 import { Cross2Icon } from '@radix-ui/react-icons';
 import clsx from "clsx"
 
-
-const NavigationBottom = () => {
-  const [isVisible, setIsVisible] = useState(false)
-
-  const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
-      setIsVisible(true)
-    } else {
-      setIsVisible(false)
-    }
-  }
+const ComponentNavBar = () => {
+  const [isNavbarVisible, setIsNavbarVisible] = useState(false);
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility)
+    const handleScroll = () => {
+      const scrollPosition = window.pageYOffset;
+      const windowHeight = window.innerHeight;
+      const bodyHeight = document.body.offsetHeight;
+
+      // Установка состояния видимости в зависимости от позиции прокрутки
+      setIsNavbarVisible(scrollPosition >= 300 && scrollPosition + windowHeight < bodyHeight);
+    };
+
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility)
-    }
-  }, [])
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-
-  const Menus = [
-    { name: "Home", icon: "home-outline", dis: "translate-x-0" },
-    { name: "Profile", icon: "person-outline", dis: "translate-x-16" },
-    { name: "Message", icon: "chatbubble-outline", dis: "translate-x-32" },
-    { name: "Photos", icon: "camera-outline", dis: "translate-x-48" },
-    { name: "Settings", icon: "settings-outline", dis: "translate-x-64" },
-  ];
-  const [active, setActive] = useState(0);
   return (
-    <div className={clsx(
-      isVisible ? 'opacity-100' : 'opacity-0',
-      'bg-white max-h-[4.4rem] px-6 rounded-xl fixed bottom-2 md:left-[560px] left-[30px] border-2 border-green-btn transition-opacity duration-200 z-40',
-    )} >
+    <div>
+      {isNavbarVisible && <NavigationBottom />}
+    </div>
+  );
+};
+
+
+
+const NavigationBottom = () => {
+  return (
+    <div className='bg-white max-h-[4.4rem] px-6 rounded-xl fixed bottom-2 md:left-[560px] left-[30px] border-2 border-green-btn transition-opacity duration-500 z-40'>
       <ul className="flex relative items-center">
         <li className="w-16 h-16 flex items-center pr-4">
           <a href="#" className="flex flex-col text-center">
@@ -73,4 +71,4 @@ const NavigationBottom = () => {
   );
 };
 
-export default NavigationBottom;
+export default ComponentNavBar;
