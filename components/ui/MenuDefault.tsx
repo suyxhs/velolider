@@ -16,7 +16,8 @@ import {
         </MenuHandler>
         <MenuList>
           <MenuItem><a className="text-black" href="/gallery">Галерея</a></MenuItem>
-          <MenuItem><a className="text-black" href="/leaders">Наши лидеры</a></MenuItem>
+          <MenuItem><a className="text-black" href="/leaders">Наш состав</a></MenuItem>
+          <MenuItem><a className="text-black" href="/history-base">История Базы</a></MenuItem>
         </MenuList>
       </Menu>
     );

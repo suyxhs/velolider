@@ -28,6 +28,7 @@ import Yakovlev from '/public/images/posts/yakovlev/logo2.jpg'
 import Banina from '/public/images/posts/banina/logo.jpg'
 import Borodin from '/public/images/posts/borodin/logo.jpg'
 import Dvoinenko from '/public/images/posts/dvoinenko/logo.jpg'
+import Sidelnikov from '/public/images/posts/sidelnikov/logo.jpg'
 
 import Kozhevnikov from '/public/images/posts/kozhevnikov/logo.jpg'
 import Konovalov from '/public/images/posts/konovalov/logo.jpg'
@@ -37,6 +38,9 @@ import Moshkin from '/public/images/posts/moshkin/logo.jpg'
 import PopovIvan from '/public/images/posts/popovIvan/logo.jpg'
 import Starzhevsky from '/public/images/posts/starzhevsky/logo.jpg'
 import Khromykh from '/public/images/posts/khromykh/logo.jpg'
+import Shcherbakov from '/public/images/posts/shcherbakov/logo.jpg'
+import Maznitsyn from '/public/images/posts/maznitsyn/logo.jpg'
+import Fetisov from '/public/images/posts/fetisov/logo.jpg'
 
 
 import Agapov from '/public/images/posts/testStaffLogo/1.jpg'
@@ -177,21 +181,21 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-        <Link href="/blog/dochkina-polina" className="a-reset focus-default">
+        <Link href="/blog/banina-sofia" className="a-reset focus-default">
             <div>
               <Image src={Banina} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Банина София</p>
             </div>
           </Link>
 
-        <Link href="/blog/dochkina-polina" className="a-reset focus-default">
+        <Link href="/blog/borodin-yaroslav" className="a-reset focus-default">
             <div className="mt-10">
               <Image src={Borodin} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Бородин Ярослав</p>
             </div>
           </Link>
 
-        <Link href="/blog/dochkina-polina" className="a-reset focus-default">
+        <Link href="/blog/dvoinenko-kira" className="a-reset focus-default">
             <div>
               <Image src={Dvoinenko} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Двойненко Кира</p>
@@ -212,8 +216,15 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/yakovlev-artyom" className="a-reset focus-default">
+          <Link href="/blog/sidelnikov-rodion" className="a-reset focus-default">
             <div className="mt-10">
+              <Image src={Sidelnikov} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Сидельников Родион</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/yakovlev-artyom" className="a-reset focus-default">
+            <div>
               <Image src={Yakovlev} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Яковлев Артём</p>
             </div>
@@ -246,31 +257,45 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-        <Link href="/blog/malykhin-maksim" className="a-reset focus-default">
+        <Link href="/blog/maznitsyn-alexander" className="a-reset focus-default">
             <div>
+              <Image src={Maznitsyn} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Мазницын Александр</p>
+            </div>
+          </Link>
+
+        <Link href="/blog/malykhin-maksim" className="a-reset focus-default">
+            <div className="mt-10">
               <Image src={Malykhin} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Малыхин Максим</p>
             </div>
           </Link>
 
           <Link href="/blog/moshkin-dmitriy" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Moshkin} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Мошкин Дмитрий</p>
             </div>
           </Link>
 
           <Link href="/blog/popov-ivan" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={PopovIvan} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Попов Иван</p>
             </div>
           </Link>
 
           <Link href="/blog/starzhevsky-anton" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Starzhevsky} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Старжевский Антон</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/fetisov-maxim" className="a-reset focus-default">
+            <div className="mt-10">
+              <Image src={Fetisov} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Фетисов Максим</p>
             </div>
           </Link>
 
@@ -278,6 +303,13 @@ const LeadersPage = () => {
             <div>
               <Image src={Khromykh} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Хромых Дмитрий</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/shcherbakov-alexander" className="a-reset focus-default">
+            <div className="mt-10">
+              <Image src={Shcherbakov} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Щербаков Александр</p>
             </div>
           </Link>
         </div>

@@ -16,6 +16,7 @@ import ScrollToTopButton from '@/components/ScrollToTop/ScrollToTopButton'
 import { Providers } from './providers';
 import Notify from '@/components/Notify/Notify';
 import TypeBot from '@/components/Typebot/TypeBot';
+import NavigationBottom from '@/components/Header/BottomNav';
 
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -45,6 +46,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <Notify />
           </div> */}
             <Header />
+            <NavigationBottom  />   
             {/* <TypeBot /> */}
             <ScrollToTopButton />
             {children}

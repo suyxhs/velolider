@@ -19,7 +19,7 @@ export const Logo: FC<LogoProps> = props => {
 
   return (
     <div className="flex items-center justify-start gap-3">
-      <Image src="/images/posts/sponsors/velolider2.png" width={iconSize} height={iconSize} alt='persom'/>
+      <Image src="/images/posts/sponsors/velolider2.png" width={iconSize} height={iconSize} className='grayscale' alt='persom'/>
       {!props.textHidden && (
         <span
           className="font-accent text-2xl font-bold tracking-wider"

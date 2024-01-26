@@ -3,7 +3,7 @@
 import { Post, Project, DocumentTypes, DataExports } from './types'
 import { SourceProvideSchemaErrorJSON, SourceFetchDataErrorJSON } from 'contentlayer/core'
 
-export { Post } from './types'
+export * from './types'
 
 export declare const allPosts: Post[]
 export declare const allProjects: Project[]

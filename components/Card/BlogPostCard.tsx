@@ -20,7 +20,9 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
   variant = 'default',
 }) => {
   return (
-    <><h3 className="my-1 text-lg font-medium">{post.subtitle}</h3><Link
+    <>
+    {/* <h2 className="my-8 font-accent text-2xl font-medium flex items-center">{post.subtitle}</h2> */}
+    <Link
       href={`/blog/${post.slug}`}
       role="button"
       aria-label={`Read article: ${post.title}`}

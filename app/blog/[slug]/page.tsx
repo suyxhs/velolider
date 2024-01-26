@@ -14,6 +14,7 @@ import { CTA } from '@/components/CTA';
 import { formatDate } from '@/utils/formatDate';
 
 import { mdxComponents } from './_mdxComponents';
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode, Key } from 'react';
 
 
 const getPostBySlug = (slug: string) => {
@@ -110,7 +111,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
           <MDXContent components={mdxComponents} />
         </div>
         <div className="mt-12 flex flex-wrap items-center justify-start gap-2">
-          {post.tags?.map((tag, i) => {
+          {post.tags?.map((tag: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined, i: Key | null | undefined) => {
             return (
               <Label
                 key={i}
