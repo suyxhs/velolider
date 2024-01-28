@@ -293,7 +293,7 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/starzhevsky-anton" className="a-reset focus-default">
+          <Link href="/blog/tonkikh-egor" className="a-reset focus-default">
             <div className="mt-10">
               <Image src={Tonkikh} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Тонких Егор</p>
