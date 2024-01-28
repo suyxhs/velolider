@@ -45,7 +45,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
                 (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
       
-                ym(96283530, "init", {
+                ym(96286272, "init", {
                       clickmap:true,
                       trackLinks:true,
                       accurateTrackBounce:true
@@ -57,7 +57,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
       <noscript>
           <div>
-            <img src="https://mc.yandex.ru/watch/96283530" style={{ position:'absolute', left:'-9999px' }} alt="" />
+            <img src="https://mc.yandex.ru/watch/96286272" style={{ position:'absolute', left:'-9999px' }} alt="" />
           </div>
         </noscript>
         <Providers>

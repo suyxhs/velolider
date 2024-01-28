@@ -29,6 +29,10 @@ const Post = ({ params }: { params: { slug: string } }) => {
   const shareUrl = "http://github.com";
   const title = "GitHub";
 
+  const goBack = () => {
+    window.history.back();
+  }
+
   return (
     <main className="px-container pb-24">
       <article className="relative mx-auto max-w-4xl pb-16 pt-6 md:pb-32 md:pt-12">
@@ -36,6 +40,7 @@ const Post = ({ params }: { params: { slug: string } }) => {
           <Tooltip.Trigger asChild>
             <Link
               href="/blog#timeline"
+              scroll={false}
               role="button"
               aria-label="Все посты"
               className="a-reset hover:bg-white-200 absolute -left-16 top-[46px] hidden p-1 opacity-50 hover:bg-black-100 dark:hover:bg-black-900 md:block"
