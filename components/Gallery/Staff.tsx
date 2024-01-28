@@ -6,7 +6,7 @@ import Image, { ImageProps } from 'next/image';
 import { Button } from '@/components/Button';
 
 
-import Agapov from '/public/images/posts/testStaffLogo/1.jpg'
+import Agapov from '/public/images/posts/testStaffLogo/5.jpg'
 import Kravchenko from '/public/images/posts/testStaffLogo/3.jpg'
 import Tonkih from 'public/images/posts/testStaffLogo/4.jpg'
 import AgapovDenis from '/public/images/posts/testStaffLogo/2.jpg'

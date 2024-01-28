@@ -7,6 +7,8 @@ import clsx from 'clsx';
 
 import { formatDate } from '@/utils/formatDate';
 import { Label } from '../Label';
+import { Suspense } from 'react';
+import ViewCounter from '../../app/blog/view-counter';
 
 type BlogPostCardProps = {
   post: Post;
@@ -52,6 +54,9 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
               {post.category}
             </Label>
           )}
+          {/* <Suspense fallback={<p className="h-6" />}>
+                <Views slug={post.slug} />
+              </Suspense> */}
         </div>
         {variant.startsWith('image') && (
           <div className="h-full">
@@ -74,3 +79,9 @@ export const BlogPostCard: FC<BlogPostCardProps> = ({
     </Link></>
   );
 };
+
+// async function Views({ slug }: { slug: string }) {
+//   let views = await getViewsCount();
+
+//   return <ViewCounter allViews={views} slug={slug} />;
+// }
