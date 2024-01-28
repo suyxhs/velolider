@@ -1,6 +1,6 @@
 'use client';
 
-import { ComponentProps, FC } from 'react';
+import { ComponentProps, FC, useEffect, useState } from 'react';
 import { Menu } from 'lucide-react';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -84,9 +84,25 @@ const FixedCallToActionButton: FC<{ className?: string }> = props => {
 };
 
 const CallToActionButton: FC<ComponentProps<'a'>> = props => {
+  const [isLinkActive, setIsLinkActive] = useState(false);
+
+  useEffect(() => {
+    const currentTime = new Date().getHours();
+    setIsLinkActive(currentTime >= 10 && currentTime < 19);
+  }, []);
+
   return (
-    <Button as="a" href="tel:+79529515034" size="sm" {...props}>
+    <div>
+    {isLinkActive ? (
+      <Button as="a" href="tel:+79529515034" size="sm" {...props}>
       +79529515034
-    </Button>
+      </Button>
+    ) : (
+      <Button as="a" size="sm" {...props}>
+      Звонок с 10:00 до 19:00
+      </Button>
+    )}
+  </div>
+
   );
 };
