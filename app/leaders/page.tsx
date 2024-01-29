@@ -7,42 +7,42 @@ import Image, { ImageProps } from 'next/image';
 import { Button } from '@/components/Button';
 
 
-import AgapovMaksim from '/public/images/posts/agapov/logo3.jpg'
-import Hatunceva from '/public/images/posts/khatuntseva/logo2.jpg'
-import Shikin from '/public/images/posts/shikin/logo2.jpg'
-import Diblenko from '/public/images/posts/dyblenko/logo3.jpg'
-import Kolesnikov from '/public/images/posts/kolesnikov/logo2.jpg'
-import Dolzhenko from '/public/images/posts/dolzhenko/logo3.jpg'
-import Kulnev from '/public/images/posts/kulnev/logo2.jpg'
-import Ryabov from '/public/images/posts/ryabov/logo2.jpg'
-import Kartashov from '/public/images/posts/kartashov/logo2.jpg'
-import Trufanova from '/public/images/posts/trufanova/logo2.jpg'
-import Kositsyn from '/public/images/posts/kositsyn/logo2.jpg'
-import Tymchuk from '/public/images/posts/tymchuk/logo2.jpg'
-import Kartovets from '/public/images/posts/kartovets/logo2.jpg'
+import AgapovMaksim from '/public/images/posts/leadersPage/1.jpg'
+import Hatunceva from '/public/images/posts/leadersPage/2.jpg'
+import Shikin from '/public/images/posts/leadersPage/3.jpg'
+import Diblenko from '/public/images/posts/leadersPage/4.jpg'
+import Kolesnikov from '/public/images/posts/leadersPage/5.jpg'
+import Dolzhenko from '/public/images/posts/leadersPage/6.jpg'
+import Kulnev from '/public/images/posts/leadersPage/9.jpg'
+import Ryabov from '/public/images/posts/leadersPage/8.jpg'
+import Kartashov from '/public/images/posts/leadersPage/7.jpg'
+import Trufanova from '/public/images/posts/leadersPage/10.jpg'
+import Kositsyn from '/public/images/posts/leadersPage/15.jpg'
+import Tymchuk from '/public/images/posts/leadersPage/11.jpg'
+import Kartovets from '/public/images/posts/leadersPage/12.jpg'
 
 
-import Dochkina from '/public/images/posts/dochkina/logo2.jpg'
-import Ivanov from '/public/images/posts/ivanov/logo2.jpg'
-import Yakovlev from '/public/images/posts/yakovlev/logo2.jpg'
-import Banina from '/public/images/posts/banina/logo.jpg'
-import Borodin from '/public/images/posts/borodin/logo.jpg'
-import Dvoinenko from '/public/images/posts/dvoinenko/logo.jpg'
-import Sidelnikov from '/public/images/posts/sidelnikov/logo.jpg'
+import Dochkina from '/public/images/posts/leadersPage/14.jpg'
+import Ivanov from '/public/images/posts/leadersPage/13.jpg'
+import Yakovlev from '/public/images/posts/leadersPage/18.jpg'
+import Banina from '/public/images/posts/leadersPage/17.jpg'
+import Borodin from '/public/images/posts/leadersPage/16.jpg'
+import Dvoinenko from '/public/images/posts/leadersPage/19.jpg'
+import Sidelnikov from '/public/images/posts/leadersPage/20.jpg'
 
-import Kozhevnikov from '/public/images/posts/kozhevnikov/logo.jpg'
-import Konovalov from '/public/images/posts/konovalov/logo.jpg'
-import Kruglikov from '/public/images/posts/kruglikov/logo.jpg'
-import Malykhin from '/public/images/posts/malykhin/logo.jpg'
-import Moshkin from '/public/images/posts/moshkin/logo.jpg'
-import PopovIvan from '/public/images/posts/popovIvan/logo.jpg'
-import Starzhevsky from '/public/images/posts/starzhevsky/logo.jpg'
-import Khromykh from '/public/images/posts/khromykh/logo.jpg'
-import Shcherbakov from '/public/images/posts/shcherbakov/logo.jpg'
-import Maznitsyn from '/public/images/posts/maznitsyn/logo.jpg'
-import Fetisov from '/public/images/posts/fetisov/logo.jpg'
-import Tonkikh from '/public/images/posts/tonkikhEgor/logo.jpg'
-import PopkovIvan from '/public/images/posts/popkovIvan/logo.jpg'
+import Kozhevnikov from '/public/images/posts/leadersPage/21.jpg'
+import Konovalov from '/public/images/posts/leadersPage/24.jpg'
+import Kruglikov from '/public/images/posts/leadersPage/23.jpg'
+import Malykhin from '/public/images/posts/leadersPage/22.jpg'
+import Moshkin from '/public/images/posts/leadersPage/27.jpg'
+import PopovIvan from '/public/images/posts/leadersPage/26.jpg'
+import Starzhevsky from '/public/images/posts/leadersPage/25.jpg'
+import Khromykh from '/public/images/posts/leadersPage/31.jpg'
+import Shcherbakov from '/public/images/posts/leadersPage/29.jpg'
+import Maznitsyn from '/public/images/posts/leadersPage/28.jpg'
+import Fetisov from '/public/images/posts/leadersPage/33.jpg'
+import Tonkikh from '/public/images/posts/leadersPage/32.jpg'
+import PopkovIvan from '/public/images/posts/leadersPage/30.jpg'
 
 
 import Agapov from '/public/images/posts/testStaffLogo/5.jpg'
@@ -280,7 +280,7 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/moshkin-dmitriy" className="a-reset focus-default">
+          <Link href="/blog/popkov-ivan" className="a-reset focus-default">
             <div className="mt-10">
               <Image src={PopkovIvan} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Попков Иван</p>
