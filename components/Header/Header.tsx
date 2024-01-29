@@ -19,10 +19,10 @@ import { NotificationsMenu } from '../ui/ClockIcon'
 
 export const Header = () => {
   return (
-      <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
-        <div className='block md:hidden'>
-          <NotificationsMenu />
-        </div>
+    <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
+      <div className='block md:hidden'>
+        <NotificationsMenu />
+      </div>
       <Link href="/" className="flex items-center ">
         {/* <Logo textHidden /> */}
         {/* <span className='font-medium text-sm'>команда</span> */}
@@ -93,16 +93,16 @@ const CallToActionButton: FC<ComponentProps<'a'>> = props => {
 
   return (
     <div>
-    {isLinkActive ? (
-      <Button as="a" href="tel:+79529515034" size="sm" {...props}>
-      +79529515034
-      </Button>
-    ) : (
-      <Button as="a" size="sm" {...props}>
-      Звонок с 10:00 до 19:00
-      </Button>
-    )}
-  </div>
+      {isLinkActive ? (
+        <Button as="a" href="tel:+79529515034" size="sm" {...props}>
+          +79529515034
+        </Button>
+      ) : (
+        <Button as="a" size="sm" {...props}>
+          Звонок с 10:00 до 19:00
+        </Button>
+      )}
+    </div>
 
   );
 };
