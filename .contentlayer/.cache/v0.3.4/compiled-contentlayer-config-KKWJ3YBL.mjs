@@ -34,7 +34,7 @@ var Externals = defineNestedType(() => ({
   }
 }));
 var POSTS_DIR_NAME = "posts";
-var Categories = ["\u042D\u043B\u0438\u0442\u0430", "\u041B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u044B", "\u0412\u043E\u0441\u043F\u0438\u0442\u0430\u043D\u043D\u0438\u043A\u0438", "\u041F\u0440\u043E\u0442\u043E\u043A\u043E\u043B\u044B", "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u043B", "\u041F\u0440\u043E\u0447\u0435\u0435", "\u0421\u043F\u043E\u043D\u0441\u043E\u0440\u044B"];
+var Categories = ["\u042D\u043B\u0438\u0442\u0430", "\u041B\u0435\u0433\u0438\u043E\u043D\u0435\u0440\u044B", "\u0421\u043E\u0441\u0442\u0430\u0432", "\u041F\u0440\u043E\u0442\u043E\u043A\u043E\u043B\u044B", "\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u043B", "\u041F\u0440\u043E\u0447\u0435\u0435", "\u0421\u043F\u043E\u043D\u0441\u043E\u0440\u044B"];
 var Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: `./${POSTS_DIR_NAME}/*.mdx`,
@@ -125,4 +125,4 @@ export {
   Project,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-LT42HH5C.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-KKWJ3YBL.mjs.map

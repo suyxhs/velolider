@@ -47,7 +47,7 @@ const Externals = defineNestedType(() => ({
 const POSTS_DIR_NAME = 'posts';
 
 
-const Categories = ['Элита', 'Легионеры', 'Воспитанники', 'Протоколы', 'Персонал', 'Прочее', 'Спонсоры'] as const;
+const Categories = ['Элита', 'Легионеры', 'Состав', 'Протоколы', 'Персонал', 'Прочее', 'Спонсоры'] as const;
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',

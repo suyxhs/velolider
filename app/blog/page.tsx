@@ -16,7 +16,7 @@ const Blog = () => {
         title={HeroTitle}
         description="Основная информация про спортивную школу"
       />
-      <div className="mb-24 flex flex-col gap-12 md:grid md:grid-cols-[2fr_1fr] md:gap-8 lg:gap-20">
+      <div className="mb-24 flex flex-col gap-12  md:gap-8 lg:gap-20">
         <BlogPostTimeline />
         <FeaturedBlogPosts />
       </div>
