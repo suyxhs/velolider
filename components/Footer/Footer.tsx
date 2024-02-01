@@ -91,7 +91,14 @@ export const Footer = () => {
         </div>
         <hr className="my-8 border-blue-gray-50" />
       <Typography color="white" className="text-center d-flex items-center font-normal">
-        <Link href="https://suyxhs-portfolio.vercel.app">👀 Разработано - «suyxhs»</Link>
+        {/* <p className='text-lg pb-5'>«Штрабикусы»</p> */}
+        <div className='flex flex-col'>
+        <Link href="https://suyxhs-portfolio.vercel.app">👨🏻‍💻 Разработано - «suyxhs»</Link>
+        <span>&</span>
+        <Link href="https://vk.com/vvvkkkkiiiaaa">
+          👩🏼‍💻 Кравченко Виктория
+        </Link>
+        </div>
       </Typography>
       </footer>
   );
