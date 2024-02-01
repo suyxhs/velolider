@@ -14,7 +14,7 @@ export const MdxImage: FC<MdxImageProps> = ({ src, alt, caption }) => {
       <NextImage
         src={src}
         alt={alt}
-        width={800}
+        width={600}
         height={600}
         className="rounded-lg bg-black-50 ring-2 ring-black-300 ring-offset-2 ring-offset-white dark:bg-black-950 dark:ring-black-700 dark:ring-offset-black"
       />

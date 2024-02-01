@@ -15,6 +15,9 @@ import { SlideOver } from '../Slideover';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { MenuDefault } from '../ui/MenuDefault';
 import { NotificationsMenu } from '../ui/ClockIcon'
+import {
+  Tooltip
+} from "@material-tailwind/react";
 
 
 export const Header = () => {
@@ -98,9 +101,11 @@ const CallToActionButton: FC<ComponentProps<'a'>> = props => {
           +79529515034
         </Button>
       ) : (
+        <Tooltip content="Кравченко Виктория">
         <Button as="a" size="sm" {...props}>
           Звонок с 10:00 до 19:00
         </Button>
+      </Tooltip>
       )}
     </div>
 
