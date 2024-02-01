@@ -58,15 +58,13 @@ export const BlogPostTimeline: FC = () => {
           );
         })}
       </div>
-      <div className="md:grid md:grid-cols-3 gap-4 flex flex-col flex-wrap items-center md:items-start">
+      <div className="flex flex-col flex-wrap gap-4 sm:flex-row lg:flex-col items-center md:items-start">
         {posts.map(post => {
           return (
-            <>
-              {/* <h2 className="pt-8 font-accent text-2xl font-medium flex items-center">{post.subtitle}</h2> */}
-              <BlogPostCard
-                key={post._id}
-                post={post}
-                variant="image-horizontal" /></>
+        <BlogPostCard
+              key={post._id}
+              post={post}
+              variant="image-horizontal" />
           );
         })}
         {posts.length === 0 && (
