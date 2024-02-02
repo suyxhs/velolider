@@ -43,6 +43,7 @@ import Maznitsyn from '/public/images/posts/leadersPage/28.jpg'
 import Fetisov from '/public/images/posts/leadersPage/33.jpg'
 import Tonkikh from '/public/images/posts/leadersPage/32.jpg'
 import PopkovIvan from '/public/images/posts/leadersPage/30.jpg'
+import Psarev from '/public/images/posts/leadersPage/30.jpg'
 
 
 import Agapov from '/public/images/posts/testStaffLogo/5.jpg'
@@ -294,36 +295,43 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/starzhevsky-anton" className="a-reset focus-default">
+          <Link href="/blog/psarev-sergey" className="a-reset focus-default">
             <div className="mt-10">
+              <Image src={Psarev} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Псарёв Сергей</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/starzhevsky-anton" className="a-reset focus-default">
+            <div>
               <Image src={Starzhevsky} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Старжевский Антон</p>
             </div>
           </Link>
 
           <Link href="/blog/tonkikh-egor" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={Tonkikh} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Тонких Егор</p>
             </div>
           </Link>
 
           <Link href="/blog/fetisov-maxim" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Fetisov} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Фетисов Максим</p>
             </div>
           </Link>
 
           <Link href="/blog/khromykh-dmitry" className="a-reset focus-default">
-            <div>
+            <div className="mt-10">
               <Image src={Khromykh} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Хромых Дмитрий</p>
             </div>
           </Link>
 
           <Link href="/blog/shcherbakov-alexander" className="a-reset focus-default">
-            <div className="mt-10">
+            <div>
               <Image src={Shcherbakov} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Щербаков Александр</p>
             </div>
