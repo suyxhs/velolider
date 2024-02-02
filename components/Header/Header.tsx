@@ -72,7 +72,7 @@ const FixedCallToActionButton: FC<{ className?: string }> = props => {
 
   return (
     <ScrollableRelativeToParent
-      className={clsx('z-10 text-right', props.className)}
+      className={clsx('z-20 text-right', props.className)}
     >
       <CallToActionButton
         aria-hidden={!isVisible}

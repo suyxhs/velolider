@@ -5,12 +5,13 @@ import { OffersSection } from './_sections/Offers';
 import { ChallengesSection } from './_sections/Challenges';
 import { CompaniesSection } from './_sections/Companies';
 import { HeroSection } from './_sections/Hero';
-import { MethodSection } from './_sections/Method';
+
 import { ReviewsSection } from './_sections/Reviews';
 import { ServicesSection } from './_sections/Services';
 import { SectionCards } from './_sections/section-cards';
 import { SectionHero } from './_sections/section-hero';
 import { DefaultAccordion } from '@/components/ui/Accordion';
+import MethodSection from './_sections/Method';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
       <CTASection id="cta-services" variant="mint" />
       <ReviewsSection />
       {/* <AudienceSection /> */}
-      {/* <MethodSection /> */}
+      <MethodSection />
       {/* <CTASection id="cta-method" variant="sun" /> */}
       <DefaultAccordion />
       <OffersSection id="cta-method" variant="sun" />

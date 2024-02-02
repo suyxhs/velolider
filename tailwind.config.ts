@@ -88,6 +88,6 @@ module.exports = withMT({
         
       },
     },
-    plugins: [require('@tailwindcss/typography'), [nextui()]],
+    plugins: [require('@tailwindcss/typography'), nextui()],
 
 })
