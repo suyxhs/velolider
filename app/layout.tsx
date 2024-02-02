@@ -66,7 +66,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <Notify />
           </div> */}
             <Header />
-            <ComponentNavBar  />   
+            {/* <ComponentNavBar  />    */}
             {/* <TypeBot /> */}
             <ScrollToTopButton />
             {children}

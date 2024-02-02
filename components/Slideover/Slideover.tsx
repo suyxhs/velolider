@@ -30,7 +30,7 @@ export const SlideOver: FC<SlideOverProps> = ({ children, title, Icon }) => {
         <Icon size={32} />
       </button>
       <Transition.Root show={open} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={setOpen}>
+        <Dialog as="div" className="relative z-50" onClose={setOpen}>
           <Transition.Child
             as={Fragment}
             enter="ease-in-out duration-250"

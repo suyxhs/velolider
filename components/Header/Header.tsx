@@ -1,6 +1,6 @@
 'use client';
 
-import { ComponentProps, FC, useEffect, useState } from 'react';
+import React, { ComponentProps, FC, useEffect, useState } from 'react';
 import { Menu } from 'lucide-react';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -18,32 +18,79 @@ import { NotificationsMenu } from '../ui/ClockIcon'
 import {
   Tooltip
 } from "@material-tailwind/react";
+import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem } from "@nextui-org/react"
 
 
 export const Header = () => {
-  return (
-    <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
-      <div className='block md:hidden'>
-        <NotificationsMenu />
-      </div>
-      <Link href="/" className="flex items-center ">
-        {/* <Logo textHidden /> */}
-        {/* <span className='font-medium text-sm'>команда</span> */}
-        <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
-      </Link>
-      {/* DESKTOP */}
-      <div className="hidden md:block">
-        <NavigationItems className="flex items-center gap-8 lg:gap-12" />
-      </div>
-      <FixedCallToActionButton className="hidden md:block" />
-      {/* MOBILE */}
-      <div className="block md:hidden">
-        <SlideOver Icon={Menu}>
-          <NavigationItems className="flex flex-col items-start gap-8" />
-        </SlideOver>
-      </div>
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-    </header>
+
+  return (
+    // <header className="px-container mx-auto flex min-h-[calc(44px+2.5rem)] max-w-container justify-between gap-8 py-5">
+    //   <div className='block md:hidden'>
+    //     <NotificationsMenu />
+    //   </div>
+    //   <Link href="/" className="flex items-center ">
+    //     {/* <Logo textHidden /> */}
+    //     {/* <span className='font-medium text-sm'>команда</span> */}
+    //     <h2 className='font-semibold text-lg'>ВелоЛидер</h2>
+    //   </Link>
+    //   {/* DESKTOP */}
+    //   <div className="hidden md:block">
+    //     <NavigationItems className="flex items-center gap-8 lg:gap-12" />
+    //   </div>
+    //   <FixedCallToActionButton className="hidden md:block" />
+    //   {/* MOBILE */}
+    //   <div className="block md:hidden">
+    //     <SlideOver Icon={Menu}>
+    //       <NavigationItems className="flex flex-col items-start gap-8" />
+    //     </SlideOver>
+    //   </div>
+
+    // </header>
+
+    <Navbar
+
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      shouldHideOnScroll
+      className='rounded-b-md'
+    >
+
+      <NavbarContent className="md:hidden" justify="start">
+        <NotificationsMenu />
+      </NavbarContent>
+
+      <NavbarContent className="sm:hidden pr-3" justify="center">
+        <NavbarBrand>
+          <p className="font-semibold text-lg">ВелоЛидер</p>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex pr-3" justify="start">
+        <NavbarBrand>
+          <p className="font-semibold text-lg">ВелоЛидер</p>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-4" justify="end">
+        <NavbarItem>
+        <NavigationItems className="flex items-center gap-8" />
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarContent justify="end">
+        <NavbarItem className="block md:hidden">
+        <SlideOver Icon={Menu}>
+           <NavigationItems className="flex flex-col items-start gap-8" />
+         </SlideOver>
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarMenu>
+        <NavigationItems className="flex flex-col items-start gap-8" />
+      </NavbarMenu>
+    </Navbar>
   );
 };
 
@@ -102,10 +149,10 @@ const CallToActionButton: FC<ComponentProps<'a'>> = props => {
         </Button>
       ) : (
         <Tooltip content="Кравченко Виктория">
-        <Button as="a" size="sm" {...props}>
-          Звонок с 10:00 до 19:00
-        </Button>
-      </Tooltip>
+          <Button as="a" size="sm" {...props}>
+            Звонок с 10:00 до 19:00
+          </Button>
+        </Tooltip>
       )}
     </div>
 
