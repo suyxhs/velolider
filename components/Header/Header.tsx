@@ -81,8 +81,9 @@ export const Header = () => {
 
       <NavbarContent justify="end">
         <NavbarItem className="block md:hidden">
-
-         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+        <SlideOver Icon={Menu}>
+           <NavigationItems className="flex flex-col items-start gap-8" />
+         </SlideOver>
         </NavbarItem>
       </NavbarContent>
 
