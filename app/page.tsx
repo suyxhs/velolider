@@ -1,3 +1,6 @@
+"use client"
+import { useEffect, useState } from 'react'
+
 import { AboutSection } from './_sections/About';
 import { AudienceSection } from './_sections/Audience';
 import { CTASection } from './_sections/CTA';
@@ -12,10 +15,28 @@ import { SectionCards } from './_sections/section-cards';
 import { SectionHero } from './_sections/section-hero';
 import { DefaultAccordion } from '@/components/ui/Accordion';
 import MethodSection from './_sections/Method';
+import { AnimatePresence } from 'framer-motion';
+import Preloader from '@/components/Preloader';
 
 const Home = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect( () => {
+    (
+      async () => {
+          setTimeout( () => {
+            setIsLoading(false);
+            document.body.style.cursor = 'default'
+            window.scrollTo(0,0);
+          }, 2000)
+      }
+    )()
+  }, [])
+
   return (
     <main>
+      <AnimatePresence mode='wait'>
+        {isLoading && <Preloader />}
+      </AnimatePresence>
       <SectionHero />
       <SectionCards />
       {/* <HeroSection /> */}

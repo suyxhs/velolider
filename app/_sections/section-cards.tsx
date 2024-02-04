@@ -30,6 +30,7 @@ export function SectionCards() {
                 <Image src={Card06} className="absolute bottom-0 right-80 w-80 rounded-2xl hidden md:block" alt="Card06" />
             </div>
         </section>
+        
         </>
     )
 }
