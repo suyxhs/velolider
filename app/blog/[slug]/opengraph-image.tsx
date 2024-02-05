@@ -14,7 +14,7 @@ export const contentType = 'image/png';
 
 const baseUrl =
   process.env.NODE_ENV === 'production'
-    ? 'https://velolider'
+    ? 'https://velolider.vercel.app'
     : 'http://localhost:3000';
 
 const Background = ({ children }: any) => {

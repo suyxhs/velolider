@@ -157,13 +157,13 @@ export const generateMetadata = (props: GenerateMetadataParams): Metadata => {
       site: '@kmuenster',
     },
     alternates: {
-      canonical: `https://velolider/blog/${post.slug}`,
+      canonical: `https://velolider.vercel.app/blog/${post.slug}`,
     },
     openGraph: {
       type: 'article',
       title: post.title,
       description: post.summary,
-      url: `https://velolider/blog/${post.slug}`,
+      url: `https://velolider.vercel.app/blog/${post.slug}`,
       tags: post.tags,
       publishedTime: post.publishedAt,
       authors: 'ВелоЛидер',

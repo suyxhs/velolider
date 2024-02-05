@@ -4,7 +4,7 @@ import { Feed } from 'feed';
 
 import allPosts from '../.contentlayer/generated/Post/_index.json' assert { type: 'json' };
 
-const baseUrl = 'https://velolider';
+const baseUrl = 'https://velolider.vercel.app';
 const author = {
   name: 'ВелоЛидер',
   email: 'velolider@gmail.com',

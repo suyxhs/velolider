@@ -5,7 +5,7 @@
   "author": {
     "name": "VeloLider",
     "email": "velolider@gmail.com",
-    "url": "https://velolider"
+    "url": "https://velolider.vercel.app"
   },
   "scripts": {
     "dev": "contentlayer dev & next dev",

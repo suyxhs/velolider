@@ -84,7 +84,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
  */
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://velolider'),
+  metadataBase: new URL('https://velolider.vercel.app'),
   authors: { name: 'ВелоЛидер' },
   creator: 'ВелоЛидер',
   publisher: 'ВелоЛидер',
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
   ],
   viewport: { width: 'device-width', initialScale: 1 },
   alternates: {
-    canonical: 'https://velolider',
+    canonical: 'https://velolider.vercel.app',
     types: {
       'application/rss+xml': '/rss.xml',
     },
@@ -132,7 +132,7 @@ export const metadata: Metadata = {
     username: 'suyxhs',
     gender: 'he/him',
     emails: ['velolider@gmail.com'],
-    url: 'https://velolider',
+    url: 'https://velolider.vercel.app',
     siteName: 'ВелоЛидер',
     title: 'Команда ВелоЛидер',
     description:
