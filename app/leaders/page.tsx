@@ -44,6 +44,7 @@ import Fetisov from '/public/images/posts/leadersPage/33.jpg'
 import Tonkikh from '/public/images/posts/leadersPage/32.jpg'
 import PopkovIvan from '/public/images/posts/leadersPage/30.jpg'
 import Psarev from '/public/images/posts/leadersPage/30.jpg'
+import Shabalina from '/public/images/posts/shabalinaKira/logo.jpg'
 
 
 import Agapov from '/public/images/posts/testStaffLogo/5.jpg'
@@ -330,8 +331,15 @@ const LeadersPage = () => {
             </div>
           </Link>
 
-          <Link href="/blog/shcherbakov-alexander" className="a-reset focus-default">
+          <Link href="/blog/shabalina-kira" className="a-reset focus-default">
             <div>
+              <Image src={Shabalina} className='rounded-[20px] mb-5' alt={'person'} />
+              <p>Шабалина Кира</p>
+            </div>
+          </Link>
+
+          <Link href="/blog/shcherbakov-alexander" className="a-reset focus-default">
+            <div className="mt-10">
               <Image src={Shcherbakov} className='rounded-[20px] mb-5' alt={'person'} />
               <p>Щербаков Александр</p>
             </div>
