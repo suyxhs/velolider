@@ -63,13 +63,17 @@ export const Header = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
+        <Link href="/">
           <p className="font-semibold text-lg">ВелоЛидер</p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex pr-3" justify="start">
         <NavbarBrand>
+          <Link href="/">
           <p className="font-semibold text-lg">ВелоЛидер</p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 

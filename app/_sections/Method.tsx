@@ -16,7 +16,7 @@ export default function MethodSection() {
 
   return (
     <>
-    {/* <div className="gap-2 grid grid-cols-12 grid-rows-2 px-8 pb-10">
+    <div className="gap-2 grid grid-cols-12 grid-rows-2 px-8 pb-10">
       <Card className="col-span-12 sm:col-span-4 h-[300px]">
         <Image
           removeWrapper
@@ -125,16 +125,16 @@ export default function MethodSection() {
           <a href="/projects/lazy"><Button radius="full" size="sm">Перейти</Button></a>
         </CardFooter>
       </Card>
-    </div> */}
+    </div>
     
-    <div>
+    {/* <div>
     {
         projects.map( (project, i) => {
           const targetScale = 1 - ( (projects.length - i) * 0.05);
           return <CardScroll key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale}/>
         })
       }
-    </div>
+    </div> */}
     
     </>
   );
