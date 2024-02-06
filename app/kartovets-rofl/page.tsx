@@ -4,23 +4,28 @@ import { CTA } from '@/components/CTA';
 import { Hero } from '@/components/Hero';
 import { MasonryGridGallery } from '@/components/ui/MasonryGridGallery';
 import TestGallery from '@/components/ui/TestGallery';
+import ZoomParallax from '@/components/ZoomParallax';
 
 
 
 const KartovetsRofl = () => {
   return (
+    <>
+    <div className='hidden lg:block'>
+    <ZoomParallax />
+    </div>
     <main className="px-container mx-auto max-w-container pb-24">
       <Hero
         className="py-16 md:py-20"
         minHeight={false}
         title={HeroTitle}
-        description="Чупапи"
-      />
+        description="Чупапи" />
       <div className="mb-24">
-      <TestGallery />
+        <TestGallery />
       </div>
       <CTA variant="sun" />
     </main>
+    </>
   );
 };
 

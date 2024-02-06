@@ -41,6 +41,7 @@ export type Project = {
   stack?: string[] | undefined
   externals?: Externals | undefined
   background?: Markdown | undefined
+  backgroundSecond?: Markdown | undefined
   carousel?: Image[] | undefined
   responsibilities?: Markdown[] | undefined
   achievements?: Markdown[] | undefined

@@ -80,7 +80,7 @@ export const Header = () => {
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem className="block md:hidden">
+        <NavbarItem className="block lg:hidden">
         <SlideOver Icon={Menu}>
            <NavigationItems className="flex flex-col items-start gap-8" />
          </SlideOver>

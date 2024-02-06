@@ -106,6 +106,7 @@ export const Project = defineDocumentType(() => ({
     stack: { type: 'list', of: { type: 'string' } },
     externals: { type: 'nested', of: Externals },
     background: { type: 'markdown' },
+    backgroundSecond: { type: 'markdown' },
     carousel: { type: 'list', of: Image },
     responsibilities: { type: 'list', of: { type: 'markdown' } },
     achievements: { type: 'list', of: { type: 'markdown' } },

@@ -1,12 +1,14 @@
+"use client"
+
 import styles from './styles.module.scss';
 
-import Picture1 from "/public/images/user/03.jpg"
-import Picture2 from "/public/images/user/07.jpg"
-import Picture3 from "/public/images/user/02.jpg"
-import Picture4 from "/public/images/user/01.jpg"
-import Picture5 from "/public/images/user/04.jpg"
-import Picture6 from "/public/images/user/04.jpg"
-import Picture7 from "/public/images/user/06.jpg"
+import Picture1 from "/public/images/posts/kartovets/3.jpg"
+import Picture2 from "/public/images/posts/kartovets/6.jpg"
+import Picture3 from "/public/images/posts/kartovets/7.jpg"
+import Picture4 from "/public/images/posts/kartovets/3.jpg"
+import Picture5 from "/public/images/posts/kartovets/3.jpg"
+import Picture6 from "/public/images/posts/kartovets/3.jpg"
+import Picture7 from "/public/images/posts/kartovets/3.jpg"
 import Image from 'next/image';
 import { useScroll, useTransform, motion} from 'framer-motion';
 import { useRef } from 'react';
