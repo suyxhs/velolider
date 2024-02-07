@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Gallery from '@/components/Gallery/Gallery'
 import Staff from '@/components/Gallery/Staff'
 import ZoomParallax from '@/components/ZoomParallax';
+import CubeThree from '@/components/CubeThree';
 
 
 

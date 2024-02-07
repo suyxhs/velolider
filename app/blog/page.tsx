@@ -6,7 +6,6 @@ import { Hero } from '@/components/Hero';
 import { BlogPostTimeline } from './_components/BlogPostTimeline';
 import { FeaturedBlogPosts } from './_components/FeaturedBlogPosts';
 
-
 const Blog = () => {
   return (
     <main className="px-container mx-auto max-w-container pb-24">

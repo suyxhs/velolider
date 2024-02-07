@@ -10,12 +10,15 @@ import { ClipboardWithTooltip } from '../ui/Clipboard';
 import { DrawerPlacement } from '../DrawerPlacement/DrawerPlacement';
 import { Typography } from "@material-tailwind/react";
 import PopoverDefault from '../ui/Popover';
+import CubeThree from '../CubeThree';
 
 const year = new Date().getFullYear();
 
 export const Footer = () => {
   return (
       <footer className="border-t-2 border-transparent bg-black dark:border-white/50 rounded-t-[20px] pb-8">
+        <CubeThree />
+
         <div className="px-container mx-auto flex max-w-container flex-col-reverse items-start justify-between gap-x-12 gap-y-20 pb-20 pt-16 md:flex-row">
           <div className="flex flex-col">
             {/* <Logo iconColor="white" textHidden /> */}
@@ -87,6 +90,9 @@ export const Footer = () => {
               })}
             </nav>
           </div>
+          {/* <div>
+        <CubeThree />
+      </div> */}
           </div>
         </div>
         <hr className="my-8 border-blue-gray-50" />

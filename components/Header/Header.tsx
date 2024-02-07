@@ -63,7 +63,8 @@ export const Header = () => {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-        <Link href="/">
+        <Link href="/" className='flex flex-col items-center'>
+          <span className='font-regular text-xs'>команда</span>
           <p className="font-semibold text-lg">ВелоЛидер</p>
           </Link>
         </NavbarBrand>
@@ -71,7 +72,8 @@ export const Header = () => {
 
       <NavbarContent className="hidden sm:flex pr-3" justify="start">
         <NavbarBrand>
-          <Link href="/">
+          <Link href="/" className='flex flex-col'>
+          <span className='font-regular text-xs'>команда</span>
           <p className="font-semibold text-lg">ВелоЛидер</p>
           </Link>
         </NavbarBrand>
