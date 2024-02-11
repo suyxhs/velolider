@@ -17,7 +17,7 @@ export const legals = [
 
 export const socials = [
   { name: 'Почта', href: 'mailto:hey@konstantin.digital' },
-  { name: 'VK', href: '/' },
+  { name: 'VK', href: 'https://vk.com/teamvelolider' },
 ];
 
 export const FreshEyesAuditSchedulingLink =
