@@ -13,7 +13,6 @@ const VideoPlayer = ({ src }: any) => {
       url={src}
       width="100%"
       height={isMobile ? 'auto' : 'auto'}
-      playing={false}
       controls={true}
     />
   );
