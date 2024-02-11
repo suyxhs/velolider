@@ -1,24 +1,21 @@
+import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
-import { useEffect, useState } from 'react';
 
-interface VideoPlayerProps {
-  src: string;
-  width?: string;
-  height?: string;
-}
-
-const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, width = '100%', height = 'auto' }) => {
+const VideoPlayer = ({ src }: any) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const userAgent = navigator.userAgent || navigator.vendor;
-    setIsMobile(/iPad|iPhone|iPod|Android/i.test(userAgent));
+    setIsMobile(/iPad|iPhone|iPod|Android/i.test(navigator.userAgent || navigator.vendor));
   }, []);
 
   return (
-    <div>
-      <ReactPlayer url={src} width={width} height={isMobile ? 'auto' : height} controls />
-    </div>
+    <ReactPlayer
+      url={src}
+      width="100%"
+      height={isMobile ? 'auto' : 'auto'}
+      playing={false}
+      controls={true}
+    />
   );
 };
 
