@@ -43,8 +43,8 @@ import Maznitsyn from '/public/images/posts/leadersPage/28.jpg'
 import Fetisov from '/public/images/posts/leadersPage/33.jpg'
 import Tonkikh from '/public/images/posts/leadersPage/32.jpg'
 import PopkovIvan from '/public/images/posts/leadersPage/30.jpg'
-import Psarev from '/public/images/posts/leadersPage/30.jpg'
-import Shabalina from '/public/images/posts/shabalinaKira/logo.jpg'
+import Psarev from '/public/images/posts/leadersPage/34.png'
+import Shabalina from '/public/images/posts/leadersPage/35.jpg'
 
 
 import Agapov from '/public/images/posts/testStaffLogo/5.jpg'
