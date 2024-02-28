@@ -17,6 +17,7 @@ import { DefaultAccordion } from '@/components/ui/Accordion';
 import MethodSection from './_sections/Method';
 import { AnimatePresence } from 'framer-motion';
 import Preloader from '@/components/Preloader';
+import { SetCtaSection } from './_sections/SetCtaSection';
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +44,7 @@ const Home = () => {
       <ChallengesSection />
       <CompaniesSection />
       <AboutSection />
+      <SetCtaSection id="cta-method" variant="violet" />
       <ServicesSection />
       <CTASection id="cta-services" variant="mint" />
       <ReviewsSection />
