@@ -70,7 +70,7 @@ export const SetCta: FC<setCtaProps> = ({
             </Button>
           )} */}
           {/* <BottomPanel /> */}
-          <a href="https://section-velo-child.vercel.app">
+          <a href="https://velolider-child.vercel.app">
           <button className="focus-default inline-block flex-shrink-0 cursor-pointer rounded-full bg-black px-[20px] py-[10px] !font-medium text-white transition-colors">
             Подробнее
           </button>
