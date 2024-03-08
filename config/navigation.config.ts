@@ -1,5 +1,5 @@
 export const navigation = [
-  { name: 'Главная', href: '/' },
+  { name: 'Набор в команду', href: 'https://section-velo-child.vercel.app' },
   { name: 'Наши новости', href: '/projects' },
   { name: 'Контент', href: '/blog' },
   // { name: 'Галерея', href: '/gallery' },
