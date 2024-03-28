@@ -32,7 +32,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           className
         )}
       >
-        <div className="flex-shrink-0 pt-6 md:py-6 lg:py-9">
+        <div className="flex-shrink-0 pt-6 md:py-6 lg:py-9 lg:w-[500px]">
           <span className="absolute right-6 top-6 text-xs font-medium uppercase tracking-wider text-black-500 md:left-9 md:top-9">
             {project.period}
           </span>
