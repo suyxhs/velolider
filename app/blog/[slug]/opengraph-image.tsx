@@ -2,7 +2,7 @@
 import { allPosts } from 'contentlayer/generated';
 import { ImageResponse } from 'next/server';
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 
 export const alt = 'ВелоЛидер';
 export const size = {
