@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 
 import { CTA } from '@/components/CTA';
 import { Hero } from '@/components/Hero';
-import { MasonryGridGallery } from '@/components/ui/MasonryGridGallery';
 import HistoryBase from '@/components/ui/HistoryBase';
 
 
